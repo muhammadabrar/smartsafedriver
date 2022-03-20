@@ -5,7 +5,7 @@ export default function Intro() {
   useEffect(() => {
     setTimeout(() => {
       setsilde(silde == 1 ? 2 : silde == 2 ? 3 : 1);
-    }, 5000);
+    }, 15000);
   }, [silde]);
   return (
     <>
@@ -18,13 +18,15 @@ export default function Intro() {
                 <>
                   <div className="caption ">
                     <h1 className="heading">
-                      Travel in Luxury of Your <span>Own Car.</span>
+                    welcome to smart safe drivers<br/>
+                    <span>Everything You Need</span>
                     </h1>
 
                     <p className="hero-text">
-                      Choose from the range of our highly professional drivers
-                      to escort you to the airport, events, wedding, or weekend
-                      getaway.
+                    Are you looking for a chauffeur in UAE? Wondering about their standard of services? 
+We are providing a range of reliable Safe Driver Services.
+Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
+<small>let us know when and where you want the Driver to pick you up from, or book online and we’ll call you back to confirm your booking.</small>
                     </p>
                     <button className="action-btn">Call Now</button>
                     <button className="main-action-btn">WhatsApp Now</button>
@@ -38,12 +40,16 @@ export default function Intro() {
                 <>
                   <div className="caption ">
                     <h1 className="heading">
-                      You Drink We Drive Say No To Driving{" "}
-                      <span>Under Influence</span>
+                    Your car –
+{" "}
+                      <span>Our driver</span>
                     </h1>
                     <p className="hero-text">
-                      Don't be a threat to yourself and other passengers on the
-                      road. Book a safe driver Now and make the smarter choice.
+                    You Drink We Drive
+
+Say No To Driving Under Influence<br/>
+                    Have a safe journey to your destination in the comfort of your own car with our professional chauffeur.
+
                     </p>
                     <button className="action-btn">Call Now</button>
                     <button className=" main-action-btn">WhatsApp Now</button>
@@ -58,12 +64,13 @@ export default function Intro() {
                 <>
                   <div className="caption ">
                     <h1 className="heading">
-                      Reliable Drivers. Sit Back & Relax.
+                    Safe Journey With Awesome Reliable Drivers. <span>Sit Back & Relax.</span>
+
+
                     </h1>
                     <p className="hero-text">
-                      Expect only the best from our wide array of professionally
-                      trained drivers as they will take you to your destination
-                      safely.
+                    Expect only the best from our wide array of professionally trained drivers as they will take you to your destination safely. Our drivers undergo specific training to ensure the quality of their services. To ensure the safety of passengers in extreme conditions, they are trained in defensive driving techniques. 
+
                     </p>
                     <button className="action-btn">Call Now</button>
                     <button className=" main-action-btn">WhatsApp Now</button>
@@ -78,15 +85,15 @@ export default function Intro() {
           <ol className="carousel-indicators">
             <li
               className={silde == 1 && "active"}
-              onClick={() => setslide(1)}
+              onClick={() => setsilde(1)}
             ></li>
             <li
               className={silde == 2 && "active"}
-              onClick={() => setslide(2)}
+              onClick={() => setsilde(2)}
             ></li>
             <li
               className={silde == 3 && "active"}
-              onClick={() => setslide(3)}
+              onClick={() => setsilde(3)}
             ></li>
           </ol>
         </div>

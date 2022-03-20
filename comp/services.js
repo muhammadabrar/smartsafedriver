@@ -4,7 +4,9 @@ import {
   PassengerDrinks32,
   CarFront32,
   TrafficFlow32,
-  CabinCareAlert32
+  CabinCareAlert32,
+  Delivery32,
+  Event32
 } from "@carbon/icons-react";
 import { useState } from "react";
 export default function Services_comp() {
@@ -18,21 +20,13 @@ export default function Services_comp() {
             {/* <hr/> */}
           </h1>
           <p>
-            We are a chauffeured car service provider in Dubai (UAE), providing
-            a number of safe and reliable services to cater for all your
-            traveling needs. Whether you need our services for a weekend outing,
-            a shopping trip or late night party you may need a trusted Driver
-            who can take you back home or to your desired destination at your
-            chosen time. We are also providing short-term drivers for daily,
-            weekly and monthly basis at very convenient and low prices.
-            <br />
-            We make sure that our drivers have a professional attitude and know
-            about their responsibilities well. You can just call us or share
-            your location with us via WhatsApp to let us know where you are and
-            what time to pick you up. Just sit back and relax and let us handle
-            the rest. We let you Hire Private Safe Driver Dubai and enjoy sober
-            driving services all the time. We make sure that your and your car’s
-            safety is our number 1 priority!
+          We are a chauffeured car service provider in Dubai (UAE), providing a number of safe and reliable services to meet all your travel needs. 
+We provide a high level of personalized customer service for high-net-worth individuals, executives in large corporations and VIP’s setting an example of Dubai’s finest chauffeurs to our leisure and business clients. We take pride in having an exceptionally qualified and reliable elite chauffeur team who are capable of satisfying the most demanding schedule.
+<br/>
+Whether on business trips, sports or corporate events, hiring a driver in the evening, or a private airport driver transfer, we believe we can meet your expectations and even exceed them. Our fleet of top-notch executive and luxury driver-driven cars is nothing short of impressive, and everyone gets VIP treatment.
+<br/>
+We believe in providing quality services that best meet your travel needs. Our vision is to provide quality services to our passengers.
+
           </p>
           <div className="services-items">
             <div
@@ -49,8 +43,9 @@ export default function Services_comp() {
                   <a href="">Airport Transfers</a>
                 </h4>
                 <p>
-                  Had a long flight? Rest assured our safe driver will be
-                  waiting for you autside the airport along with your vehicle.
+                Need a ride to or from the airport? Or, want to send a car and driver to make a positive impression on a client?
+                Book Now a Smart Safe Driver Rest assured our safe driver will be waiting for you outside the airport along with your vehicle.
+
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>
@@ -66,11 +61,10 @@ export default function Services_comp() {
                   </i>
                 </div>
                 <h4>
-                  <a href="">After Party Pickup</a>
+                  <a href="">ROMANCE or After Party Pickup</a>
                 </h4>
                 <p>
-                  Let us know when it is time to go afer a great time at party
-                  and we will drive you home safely.
+                  Impress the love of your life when you go out. Smart Safe Driver can help pre-arrange something special to have it waiting for you on our arrival.<br/> Call for more details.
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>
@@ -89,8 +83,8 @@ export default function Services_comp() {
                   <a href="">City Tour</a>
                 </h4>
                 <p>
-                  Looking for someone who could show help you showing around
-                  city to your guests? We will take care of that.
+                You are on vacation or have Guests looking for someone who could show help you showing around city to your guests? we can offer you city tours with English speaking drivers or guided city tours
+
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>
@@ -109,8 +103,9 @@ export default function Services_comp() {
                   <a href="">Corporate Transfers</a>
                 </h4>
                 <p>
-                  We are the best choice if you need someone to drive your
-                  organizations C Level Executives. Book us and see how.
+                Set your company up with a SMART SAFE DRIVERS CORPORATE ACCOUNT and your team can quickly book rides to help your company grow and save on every ride. We Provide You Awesome Drivers with professional and experienced chauffeurs.
+ Call for more details.
+
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>
@@ -122,35 +117,34 @@ export default function Services_comp() {
               <div className="icon-box">
                 <div className="icon">
                   <i>
-                    <TrafficFlow32 />
+                  <Delivery32 />
                   </i>
                 </div>
                 <h4>
-                  <a href="">Road Trip Driving</a>
+                  <a href="">Errand</a>
                 </h4>
                 <p>
-                  All you planning a road trip accross the Emirates but not sure
-                  who will drive? Let us drive so you can enjoy the trip.
+                  Want something delivered
+                Tell us what you need, when, where and what works for you. Get your Errand price and pay securely.
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>
             </div>
             <div
               className="service"
-              style={{ backgroundImage: `url('./hero/cartesting.jpg')` }}
+              style={{ backgroundImage: `url('./hero/event.jpg')` }}
             >
               <div className="icon-box">
                 <div className="icon">
                   <i>
-                    <CabinCareAlert32 />
+                  <Event32 />
                   </i>
                 </div>
                 <h4>
-                  <a href="">Vehicle Testing</a>
+                  <a href="">EVENTS</a>
                 </h4>
                 <p>
-                  Don’t have time for getting your vehicle tested and renewed?
-                  Sit back and let us do the testing and renewal for you.
+                Weddings, concerts, theater, dinners and more. When you experience an event with SMART SAFE DRIVERS, you experience an event in a style above the rest.
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>

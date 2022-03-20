@@ -145,7 +145,7 @@ a{
     left: -8px;
     top: -8px;
     height: 100%;
-    width: 100%;
+    width: 100%; 
     background: #fcbf4fb6;
     transition: all .3s ease-out 0s;
     transform: translateZ(-1px);
@@ -492,11 +492,15 @@ z-index: 1;
 
 .point{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    text-align: left;
     align-items: center;
     /* margin: .5rem 5rem; */
     padding: 1rem 0;
-    border-bottom: #353739 1px dotted;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+
+    /* border-bottom: #353739 1px dotted; */
 }
 .point i{
     margin-right: 1rem;
@@ -505,14 +509,10 @@ z-index: 1;
 .price-plan.active .point i{
     color: #fff;
 }
-.point p{
-    margin-right: 1rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-}
+
 
 .plan-btn {
-    background-color: #fff;
+    background-color: none;
     color: var(--primary);
     border: 2px solid var(--primary);
     text-transform: uppercase;
@@ -537,7 +537,7 @@ z-index: 1;
 
 
   @media screen and (max-width: 1000px) {
-    .point p{
+    .point{
         font-size: 1.2rem;
     }
     .plan-title{

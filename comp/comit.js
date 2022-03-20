@@ -9,22 +9,23 @@ export default function Comit() {
         <div className="comit-item">
             <i className="icon"><><CurrencyDollar32/></></i>
             <h2>Best Price</h2>
-            <p>WE Have best Prioces</p>
+            <p className="comit-note">Hire a Safe Driver in Dubai at an Affordable price<br/> Save time. Save money. Travel better.</p>
         </div>
         <div className="comit-item">
             <i className="icon"><><Location32 /></></i>
             <h2>Destination on Time</h2>
-            <p>WE Have best Prioces</p>
+            <p>Driver Will Arrival  On Time After Booking.  </p>
         </div>
         <div className="comit-item">
             <i className="icon"><><Headset32 /></></i>
             <h2>24/7 Support</h2>
-            <p>WE Have best Prioces</p>
+            <p>Feel Free to Contact Us</p>
         </div>
         <div className="comit-item">
             <i className="icon"><><BookmarkAdd32 /></></i>
             <h2>Easy Booking</h2>
-            <p>WE Have best Prioces</p>
+            <p>Our booking process is simple.<br/> Just make a call or whatsApp
+</p>
         </div>
 
     </div>

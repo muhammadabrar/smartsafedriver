@@ -17,9 +17,7 @@ export default function About() {
               {/* <hr/> */}
             </h1>
             <p className="sops-notes">
-              Indeed these are difficult times for everyone. For us safety of
-              our drivers and customers is equally important. We follow DHA
-              safety guidelines.
+            We have increased the following preventive safety and hygiene measures to protect our customers and employees from health risks
             </p>
             <hr style={{ marginTop: "2rem", marginRight: "2rem" }} />
             <div className="sops-items">
@@ -86,7 +84,7 @@ export default function About() {
                 <p>Weekly Bookings</p>
               </div>
             </div>
-            <button className="service-btn ">WhatsApp Now</button>
+            <button className="service-btn " >WhatsApp Now</button>
           </div>
         </div>
       </section>
@@ -100,11 +98,7 @@ export default function About() {
             </h1>
 
             <p className="about-notes">
-              <span>Smart</span>SafeDrivers Trust, Reliability & Responsibility,
-              that’s how we define ourselves. We are in a business in which our
-              clients call us when they need someone the most, If we aren’t good
-              enough then we we shouldn’t be in the business in the first
-              place..
+              
             </p>
             {/* <hr style={{ marginTop: "2rem", marginRight: "2rem" }} /> */}
           </div>
@@ -115,11 +109,14 @@ export default function About() {
       <div class="wrap" data-aos="zoom-in">
 
         <div className="cta-content">
-          <h3>Book A Driver Now</h3>
-          <p> Get Professional Safe Drivers for a safe and sound journey to your
-              destination anywhere across Dubai.</p>
-          <a class="cta-btn" href="#">Call Now</a>
-          <a class="cta-btn" href="#">WhatsApp Now</a>
+          <h3>Book A Chauffeur Now</h3>
+          <p> <b>SmartSafeDrivers</b> is Trust, Reliability & Responsibility,
+              that’s how we define ourselves. We are in a business in which our
+              clients call us when they need someone the most, If we aren’t good
+              enough then we we shouldn’t be in the business in the first
+              place..</p>
+          <a class="cta-btn"  href="#">Call Now</a>
+          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}} href="#">WhatsApp Now</a>
         </div>
 
       </div>
