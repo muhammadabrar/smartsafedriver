@@ -59,7 +59,7 @@ export default function Pricing_comp() {
 										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Fujairah AED 400</li>
 										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Al Ain AED 400</li>
 									</ul>
-              <button className="plan-btn ">WhatsApp Now</button>
+              <button className="plan-btn " href="#">WhatsApp Now</button>
             </div>
             <div className="price-plan">
               <h1 className="plan-title">Hourly Plan</h1>

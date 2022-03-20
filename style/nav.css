@@ -138,7 +138,7 @@ header {
 @media screen and (max-width: 800px) {
   
   :root{
-    font-size: 50%;
+    font-size: 55%;
   }
   .show-menu-btn,
   .hide-menu-btn {

@@ -32,6 +32,7 @@ function MyApp({ Component, pageProps }) {
         <Layout>
           <Component {...pageProps} />
         </Layout>
+        <script src="main.js"></script>
       </body>
     </React.Fragment>
   );

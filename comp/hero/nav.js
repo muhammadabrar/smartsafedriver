@@ -11,10 +11,13 @@ export default function Nav(props) {
         }
         setY(window.scrollY);
       };
+    const controlNav = () =>{
+      if(window.scroll > 100) {}
+    }
     
-    useEffect(() => {
-        setY(window.scrollY);
-      }, []);
+    // useEffect(() => {
+    //     setY(window.scrollY);
+    //   }, []);
       
       useEffect(() => {
         window.addEventListener("scroll", (e) => handleNavigation(e));
@@ -22,14 +25,15 @@ export default function Nav(props) {
         return () => { // return a cleanup function to unregister our function since its gonna run multiple times
           window.removeEventListener("scroll", (e) => handleNavigation(e));
         };
-      }, [y]);
-      console.log(props.active);
+      }, []);
+    //   console.log(props.active);
+
   return (
     <>
 
-      <header className={`header ${y>200&& 'fill'} `}>
+      <header id="header" className={`header ${y>200&& 'fill'} `}>
 
-        <nav className="nav">
+        <nav id="navbar" className="nav">
           
           <h2 className="logo"><span>Smart</span>SafeDrivers </h2>
           <input type="checkbox" id="chk" />
@@ -38,18 +42,18 @@ export default function Nav(props) {
           </label>
 
           <ul className="menu">
-            <div className={props.active == "home"? "menu-item active": "menu-item"}>
+            <li className={props.active == "home"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/">Home  </a>{props.active == "home"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
-            </div>
-            <div className={props.active == "services"? "menu-item active": "menu-item"}>
+            </li>
+            <li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/services">Services  </a>{props.active == "services"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
-            </div>
-            <div className={props.active == "pricing"? "menu-item active": "menu-item"}>
+            </li>
+            <li className={props.active == "pricing"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/pricing">Pricing</a>{props.active == "pricing"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
-            </div>
-            <div className={props.active == "contact"? "menu-item active": "menu-item"}>
+            </li>
+            <li className={props.active == "contact"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/contact">Contact Us</a>{props.active == "contact"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
-            </div>
+            </li>
             <label for="chk" className="hide-menu-btn">
               <i><Close32 /></i>
             </label>

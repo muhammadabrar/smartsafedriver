@@ -25,8 +25,8 @@ export default function Intro() {
                     <p className="hero-text">
                     Are you looking for a chauffeur in UAE? Wondering about their standard of services? 
 We are providing a range of reliable Safe Driver Services.
-Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
-<small>let us know when and where you want the Driver to pick you up from, or book online and we’ll call you back to confirm your booking.</small>
+{/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
+<small>let us know when and where you want the Driver to pick you up from, or book online and we’ll call you back to confirm your booking.</small> */}
                     </p>
                     <button className="action-btn">Call Now</button>
                     <button className="main-action-btn">WhatsApp Now</button>
@@ -69,7 +69,9 @@ Say No To Driving Under Influence<br/>
 
                     </h1>
                     <p className="hero-text">
-                    Expect only the best from our wide array of professionally trained drivers as they will take you to your destination safely. Our drivers undergo specific training to ensure the quality of their services. To ensure the safety of passengers in extreme conditions, they are trained in defensive driving techniques. 
+                    {/* Expect only the best from our wide array of professionally trained drivers as they will take you to your destination safely.  */}
+                    Our drivers undergo specific training to ensure the quality of their services. To ensure the safety of passengers in extreme conditions,
+                     they are trained in defensive driving techniques. 
 
                     </p>
                     <button className="action-btn">Call Now</button>

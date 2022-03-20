@@ -9,66 +9,100 @@ export default function About() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
       <>
-<section className="safety">
-        <div className="safety-wrap">
-          <div className="sops">
-            <h1 className="sops-title">
-              <span>Covid 19</span> Safety Measures
+      <section class="cta2">
+      <div class="cta-wrap" data-aos="zoom-in">
+      <h1 className="about-title" style={{color:"#fff"}}>
+             <span>Smart</span>SafeDrivers
               {/* <hr/> */}
             </h1>
-            <p className="sops-notes">
-            We have increased the following preventive safety and hygiene measures to protect our customers and employees from health risks
+
+        <div className="funch-lines">
+        <h3>RIDE LIKE ROYALTY</h3>
+        <p>SAFE • FRIENDLY • AFFORDABLE</p>
+          
+        </div>
+        <a class="cta-btn"  href="#">Book Now</a>
+
+
+      </div>
+    </section>
+      <section className="about-us">
+        <div className="wrap">
+          <div className="about">
+            <h1 className="about-title">
+             About <span>Smart</span>SafeDrivers
+              {/* <hr/> */}
+            </h1>
+
+            <p className="about-notes">
+            Smart Safe Drivers was established with the idea of ​​providing a comfortable travel experience to the general public, business class, tourists and others.
+            <br/>
+             The goal of the best secure driver is to provide equal value to each of your users.
+             <br/>
+
+In the meantime, we keep in touch with our drivers to monitor the quality of our service and maintain your level of satisfaction. <br/>We work with a customer first approach that allows us to earn your trust.
+
+Furthermore, once you book your ride, the best safe driver is immediately available at your service. <br/>Our mission is to provide the best service to each of our customers and to maintain quality standards.
+            </p>
+            {/* <hr style={{ marginTop: "2rem", marginRight: "2rem" }} /> */}
+          </div>
+        </div>
+      </section>
+<section className="why-sd">
+        <div className="why-sd-wrap">
+          <div className="about-sds">
+            <h1 className="about-sds-title">
+             Why Professional <span>Safe Drivers?</span>
+              {/* <hr/> */}
+            </h1>
+            <p className="about-sds-notes">
+            A safe driver is essential, but so is driving.<br/>
+            Our safe drivers are aware of all the major roads and locations in Dubai to serve you with an enjoyable experience through Private Driver Service in Dubai. No matter your purposes of hiring a safe driver, our sober drivers will help you meet your concerns in a hassle-free manner. With us, you will definitely enjoy 100% dedicated services and meet your every safe driving needs.
             </p>
             <hr style={{ marginTop: "2rem", marginRight: "2rem" }} />
-            <div className="sops-items">
-              <div className="sops-box">
+            <div className="about-sds-items">
+              <div className="about-sds-box">
                 <i>
                   <FaceMask32 />
                 </i>
-                <div className="sop-info">
-                  <h4 className="sop-title">Wear Mask & Gloves</h4>
-                  <p className="sop-note">
-                    Wearing masks & gloves is mendatory for both driver &
-                    passengers.
-                  </p>
-                </div>
+                <p className="about-sd-info">
+                  Going for a Party? Get Driven Safely Back Home!
+                </p>
               </div>
-              <div className="sops-box">
+              <div className="about-sds-box">
                 <i>
-                  <Touch_2Filled32 />
+                  <FaceMask32 />
                 </i>
-                <div className="sop-info">
-                  <h4 className="sop-title">Avoid Contact</h4>
-                  <p className="sop-note">
-                    Avoid un-necessory contact and avoid using front passenger
-                    seat.
-                  </p>
-                </div>
+                <p className="about-sd-info">
+                  service appointment? We'll Pickup-up and Drop-off your car.
+                </p>
               </div>
-              <div className="sops-box">
+              <div className="about-sds-box">
                 <i>
-                  <TemperatureFeelsLike32 />
+                  <FaceMask32 />
                 </i>
-                <div className="sop-info">
-                  <h4 className="sop-title">Temperature Screening</h4>
-                  <p className="sop-note">
-                    Drivers are checked for Temperature at the start & end of
-                    their duty.
-                  </p>
-                </div>
+                <p className="about-sd-info">
+                  we pick-up & drop your kids off to school, on time!
+                </p>
               </div>
-              <div className="sops-box">
+              <div className="about-sds-box">
                 <i>
-                  <HealthCross32 />
+                  <FaceMask32 />
                 </i>
-                <div className="sop-info">
-                  <h4 className="sop-title">Continous Senitization</h4>
-                  <p className="sop-note">
-                    Drivers are instructed to stay clean & regularly use
-                    senitizars.
-                  </p>
-                </div>
+                <p className="about-sd-info">
+                  rehearse for your business meeting, while we drive your car
+                </p>
               </div>
+              <div className="about-sds-box">
+                <i>
+                  <FaceMask32 />
+                </i>
+                <p className="about-sd-info">
+                  Trust us with your urgent packages
+                </p>
+              </div>
+              
+          
             </div>
           </div>
           <div className="states">
@@ -89,21 +123,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="short-about-us">
-        <div className="wrap">
-          <div className="about">
-            <h1 className="about-title">
-              <span>Smart</span>SafeDrivers
-              {/* <hr/> */}
-            </h1>
-
-            <p className="about-notes">
-              
-            </p>
-            {/* <hr style={{ marginTop: "2rem", marginRight: "2rem" }} /> */}
-          </div>
-        </div>
-      </section>
+      
 
        <section id="cta" class="cta">
       <div class="wrap" data-aos="zoom-in">

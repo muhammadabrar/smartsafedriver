@@ -193,7 +193,7 @@
   padding: 0.5rem;
   color: #fff;
   box-shadow: #f8c15c77 0px 0px 8px 0px;
-  animation: bounce 2s linear infinite;
+  animation: bounce 2s linear;
   /* animation-direction: alternate; */
 }
 @keyframes bounce {

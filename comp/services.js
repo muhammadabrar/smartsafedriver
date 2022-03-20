@@ -124,8 +124,11 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <a href="">Errand</a>
                 </h4>
                 <p>
-                  Want something delivered
-                Tell us what you need, when, where and what works for you. Get your Errand price and pay securely.
+                <br/>
+                  Safe & fast Delivery<br/>
+                  
+                  <br/>
+                  Anytime, Anywhere in Dubai
                 </p>
                 <button className="service-btn ">WhatsApp Now</button>
               </div>
