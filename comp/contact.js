@@ -54,25 +54,25 @@ export default function Contact_comp() {
                   <input
                     className="input"
                     type="text"
-                    placeholder="Name"
+                    placeholder="Enter Your Name"
                   ></input>
                 </div>
                 <div className="field">
                   <input
                     className="input"
                     type="text"
-                    placeholder="Name"
+                    placeholder="Enter Your Email"
                   ></input>
                 </div>
                 <div className="field1">
                   <input
                     className="input"
                     type="text"
-                    placeholder="Name"
+                    placeholder="Enter Subject"
                   ></input>
                 </div>
                 <div className="field1">
-                  <textarea className="input" placeholder="Name"></textarea>
+                  <textarea className="input" placeholder="Enter Your Msg"></textarea>
                 </div>
                 <div className="submit">
                   <input

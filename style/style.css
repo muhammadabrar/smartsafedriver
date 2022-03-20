@@ -439,7 +439,7 @@ box-shadow: 0 0 8px var(--primary);
   .about-us{
       display: flex;
       justify-content: center;
-      
+      margin: 3rem 0;
   }
  
   .about-title{
@@ -468,6 +468,32 @@ box-shadow: 0 0 8px var(--primary);
     padding: 12rem 0;
     display: flex;
     justify-content: center;
+  }
+  .covid{
+    background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.8)), url("../public/hero/covid.jpg") fixed center center;
+    background-size: cover;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .sops-item{
+   
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 3rem;
+  row-gap: 8rem;
+  margin: 5rem 0;
+  }
+  .sops-item i{
+   font-size: 5rem;
+   color: var(--primary);
+    }
+  .covid p{
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  .covid .more-sops{
+    color: var(--primary);
   }
   .cta2{
     /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../public/hero/cta-bg.jpg") fixed center center; */
@@ -565,6 +591,10 @@ box-shadow: 0 0 8px var(--primary);
       }
       .funch-lines{
         margin-bottom: 2rem;
+      }
+      .sops-item{
+  grid-template-columns: auto auto ;
+
       }
   }
 /*--------------------------------------------------------------

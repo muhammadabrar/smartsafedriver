@@ -44,10 +44,14 @@ export default function Nav(props) {
           <ul className="menu">
             <li className={props.active == "home"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/">Home  </a>{props.active == "home"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
+            </li><li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>
+              <a href="/about">About  </a>{props.active == "about"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li>
+
             <li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/services">Services  </a>{props.active == "services"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li>
+            
             <li className={props.active == "pricing"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/pricing">Pricing</a>{props.active == "pricing"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li>

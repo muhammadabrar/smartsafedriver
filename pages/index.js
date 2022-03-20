@@ -20,6 +20,23 @@ export default function Home() {
 <Services_comp/>
 <How_to/>
 <Pricing_comp/>
+<section class="cta2">
+      <div class="cta-wrap" data-aos="zoom-in">
+      <h1 className="about-title" style={{color:"#fff"}}>
+             <span>Smart</span>SafeDrivers
+              {/* <hr/> */}
+            </h1>
+
+        <div className="funch-lines">
+        <h3>RIDE LIKE ROYALTY</h3>
+        <p>SAFE • FRIENDLY • AFFORDABLE</p>
+          
+        </div>
+        <a class="cta-btn"  href="#">Book Now</a>
+
+
+      </div>
+    </section>
 <About/>
 <Contact/>
 <Footer/>

@@ -2,30 +2,20 @@ import { useState } from "react";
 import {
     FaceMask32,
     Touch_2Filled32,
-    HealthCross32,
-    TemperatureFeelsLike32
+    ThumbsUpFilled32,
+    Need32,
+    Bar32,
+    Partnership32,
+    CarFront32,
+    VehicleServices32,
+    AirlinePassengerCare32,
+    SprayPaint32
   } from "@carbon/icons-react";
 export default function About() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
       <>
-      <section class="cta2">
-      <div class="cta-wrap" data-aos="zoom-in">
-      <h1 className="about-title" style={{color:"#fff"}}>
-             <span>Smart</span>SafeDrivers
-              {/* <hr/> */}
-            </h1>
-
-        <div className="funch-lines">
-        <h3>RIDE LIKE ROYALTY</h3>
-        <p>SAFE • FRIENDLY • AFFORDABLE</p>
-          
-        </div>
-        <a class="cta-btn"  href="#">Book Now</a>
-
-
-      </div>
-    </section>
+      
       <section className="about-us">
         <div className="wrap">
           <div className="about">
@@ -48,6 +38,22 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
           </div>
         </div>
       </section>
+      <section id="cta" class="cta">
+      <div class="wrap" data-aos="zoom-in">
+
+        <div className="cta-content">
+          <h3>Book A Chauffeur Now</h3>
+          <p> <b>SmartSafeDrivers</b> is Trust, Reliability & Responsibility,
+              that’s how we define ourselves. We are in a business in which our
+              clients call us when they need someone the most, If we aren’t good
+              enough then we we shouldn’t be in the business in the first
+              place..</p>
+          <a class="cta-btn"  href="#">Call Now</a>
+          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}} href="#">WhatsApp Now</a>
+        </div>
+
+      </div>
+    </section>
 <section className="why-sd">
         <div className="why-sd-wrap">
           <div className="about-sds">
@@ -63,7 +69,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
             <div className="about-sds-items">
               <div className="about-sds-box">
                 <i>
-                  <FaceMask32 />
+                <Bar32 />
                 </i>
                 <p className="about-sd-info">
                   Going for a Party? Get Driven Safely Back Home!
@@ -71,31 +77,31 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
               </div>
               <div className="about-sds-box">
                 <i>
-                  <FaceMask32 />
+                  <VehicleServices32 />
                 </i>
                 <p className="about-sd-info">
-                  service appointment? We'll Pickup-up and Drop-off your car.
+                  Service appointment? We'll Pickup-up and Drop-off your car.
                 </p>
               </div>
               <div className="about-sds-box">
                 <i>
-                  <FaceMask32 />
+                <AirlinePassengerCare32 />
                 </i>
                 <p className="about-sd-info">
-                  we pick-up & drop your kids off to school, on time!
+                  We pick-up & drop your kids off to school, on time!
                 </p>
               </div>
               <div className="about-sds-box">
                 <i>
-                  <FaceMask32 />
+                <CarFront32 />
                 </i>
                 <p className="about-sd-info">
-                  rehearse for your business meeting, while we drive your car
+                  Rehearse for your business meeting, while we drive your car
                 </p>
               </div>
               <div className="about-sds-box">
                 <i>
-                  <FaceMask32 />
+                <Partnership32 />
                 </i>
                 <p className="about-sd-info">
                   Trust us with your urgent packages
@@ -125,20 +131,50 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
 
       
 
-       <section id="cta" class="cta">
+      <section id="cta" class="covid">
       <div class="wrap" data-aos="zoom-in">
-
-        <div className="cta-content">
-          <h3>Book A Chauffeur Now</h3>
-          <p> <b>SmartSafeDrivers</b> is Trust, Reliability & Responsibility,
-              that’s how we define ourselves. We are in a business in which our
-              clients call us when they need someone the most, If we aren’t good
-              enough then we we shouldn’t be in the business in the first
-              place..</p>
-          <a class="cta-btn"  href="#">Call Now</a>
-          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}} href="#">WhatsApp Now</a>
+      <p> Following CDC and Public Health Guidelines, we are doing everything we can to keep you and our drivers safe.
+If you or any passenger is experiencing COVID symptoms, please call our dispatch headquarters.</p>
+        <div className="sops">
+          <div className="sops-item">
+            <div>
+          <i>
+          <SprayPaint32 />
+                </i>
+                <p className="about-sd-info">
+                Every SmartSafeDriver vehicle is sanitized after each ride.
+                </p>
+          </div>
+         
+          <div>
+           
+          <i>
+          <Need32 />
+                </i>
+                <p className="about-sd-info">
+                Take-home hand sanitizer is available to each passenger.
+                </p>
+              
+          </div>
+          <div >
+          <i>
+          <SprayPaint32 />
+                </i>
+                <p className="about-sd-info">
+                Drivers and passengers are required to wear facemasks.
+                </p>
+          </div>
+          <div>
+          <i>
+          <ThumbsUpFilled32 />
+                </i>
+                <p className="about-sd-info">
+                Drivers are equipped with latex gloves for safety.
+                </p>
+          </div>
         </div>
-
+        </div>
+        <p className="more-sops">For more information on COVID symptoms, safety and prevention, please visit the CDC website. <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CLICK HERE</a></p>
       </div>
     </section>
 
