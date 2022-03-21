@@ -32,7 +32,7 @@ export default function Home() {
         <p>SAFE • FRIENDLY • AFFORDABLE</p>
           
         </div>
-        <a class="cta-btn"  href="#">Book Now</a>
+        <a class="cta-btn"  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}>Book Now</a>
 
 
       </div>

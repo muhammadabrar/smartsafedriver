@@ -47,7 +47,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 Book Now a Smart Safe Driver Rest assured our safe driver will be waiting for you outside the airport along with your vehicle.
 
                 </p>
-                <button className="service-btn ">WhatsApp Now</button>
+                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -66,7 +66,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 <p>
                   Impress the love of your life when you go out. Smart Safe Driver can help pre-arrange something special to have it waiting for you on our arrival.<br/> Call for more details.
                 </p>
-                <button className="service-btn ">WhatsApp Now</button>
+                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -86,7 +86,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 You are on vacation or have Guests looking for someone who could show help you showing around city to your guests? we can offer you city tours with English speaking drivers or guided city tours
 
                 </p>
-                <button className="service-btn ">WhatsApp Now</button>
+                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -107,7 +107,7 @@ We believe in providing quality services that best meet your travel needs. Our v
  Call for more details.
 
                 </p>
-                <button className="service-btn ">WhatsApp Now</button>
+                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -130,7 +130,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <br/>
                   Anytime, Anywhere in Dubai
                 </p>
-                <button className="service-btn ">WhatsApp Now</button>
+                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -149,7 +149,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 <p>
                 Weddings, concerts, theater, dinners and more. When you experience an event with SMART SAFE DRIVERS, you experience an event in a style above the rest.
                 </p>
-                <button className="service-btn ">WhatsApp Now</button>
+                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
 

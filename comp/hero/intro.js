@@ -28,8 +28,8 @@ We are providing a range of reliable Safe Driver Services.
 {/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
 <small>let us know when and where you want the Driver to pick you up from, or book online and we’ll call you back to confirm your booking.</small> */}
                     </p>
-                    <button className="action-btn">Call Now</button>
-                    <button className="main-action-btn">WhatsApp Now</button>
+                    <a  href="tel:+971 58 146 2204"  className="action-btn">Call Now</a>
+                    <a href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="main-action-btn">WhatsApp Now</a>
                   </div>
                 </>
               )}
@@ -51,8 +51,8 @@ Say No To Driving Under Influence<br/>
                     Have a safe journey to your destination in the comfort of your own car with our professional chauffeur.
 
                     </p>
-                    <button className="action-btn">Call Now</button>
-                    <button className=" main-action-btn">WhatsApp Now</button>
+                    <a  href="tel:+971 58 146 2204" className="action-btn">Call Now</a>
+                    <a href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className=" main-action-btn">WhatsApp Now</a>
                   </div>
                 </>
               )}
@@ -74,8 +74,8 @@ Say No To Driving Under Influence<br/>
                      they are trained in defensive driving techniques. 
 
                     </p>
-                    <button className="action-btn">Call Now</button>
-                    <button className=" main-action-btn">WhatsApp Now</button>
+                    <a href="tel:+971 58 146 2204"  className="action-btn">Call Now</a>
+                    <a href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className=" main-action-btn">WhatsApp Now</a>
                   </div>
                 </>
               )}

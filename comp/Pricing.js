@@ -40,7 +40,7 @@ export default function Pricing_comp() {
                
                 
               </>
-              <button className="service-btn ">WhatsApp Now</button>
+              <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan active">
               <div>
@@ -59,7 +59,7 @@ export default function Pricing_comp() {
 										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Fujairah AED 400</li>
 										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Al Ain AED 400</li>
 									</ul>
-              <button className="plan-btn " href="#">WhatsApp Now</button>
+              <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="plan-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan">
               <h1 className="plan-title">Hourly Plan</h1>
@@ -74,7 +74,7 @@ export default function Pricing_comp() {
 									<li className="point"><i><CheckmarkFilled24 /></i>50 - 60 KM AED 165</li>
 									<li className="point"><i><CheckmarkFilled24 /></i>60 - 70 KM AED 180</li>
 									</ul>
-              <button className="service-btn ">WhatsApp Now</button>
+              <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
             </div>
           </div>
         </div>

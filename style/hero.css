@@ -81,10 +81,12 @@
   font-weight: 200;
   width: 80rem;
   margin-bottom: 5rem;
-  animation: fadeUp 1s ease-in-out;
+  animation: fadeInRight 1s ease-in-out;
 }
 .action-btn {
   background: none;
+  font-size: 1.4rem;
+  font-weight: 700;
   border: 2px solid var(--primary);
   text-transform: uppercase;
   padding: 12px 20px;
@@ -98,6 +100,9 @@
   animation: fadeUp 1s ease-in-out;
 }
 .main-action-btn {
+  
+  font-size: 1.4rem;
+  font-weight: 700;
   color: #fff;
   background-color: var(--primary);
   border: 2px solid var(--primary);
