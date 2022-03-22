@@ -19,6 +19,8 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
+        <meta name="description" content="Smart Safe Drivers was established with the idea of providing a comfortable travel experience to the general public, business class, tourists and others.
+"></meta>
         <title>Smart Safe Drivers</title>
         <link rel="icon" type="image/x-icon" href="./logo.ico"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
