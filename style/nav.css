@@ -47,13 +47,20 @@ header {
   align-items: center;
   margin: 0 1rem;
 }
+.logo-wrap{
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-size: 4rem;
-  
+  margin-left: 1rem;
 }
 .logo span {
   color: var(--primary);
+}
+.logo-png{
+  height: 5.5rem
 }
 .menu {
   display: flex;

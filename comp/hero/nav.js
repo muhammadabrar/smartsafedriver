@@ -34,8 +34,10 @@ export default function Nav(props) {
       <header id="header" className={`header ${y>200&& 'fill'} `}>
 
         <nav id="navbar" className="nav">
-          
-          <h2 className="logo"><span>Smart</span>SafeDrivers </h2>
+          <div className='logo-wrap'>
+        <img className='logo-png' src='./logo.png'/> 
+          <h2 className="logo">
+            <span>Smart</span>SafeDrivers </h2></div>
           <input type="checkbox" id="chk" />
           <label for="chk" className="show-menu-btn">
             <i><Menu32 /></i>

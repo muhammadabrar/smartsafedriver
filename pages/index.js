@@ -22,10 +22,7 @@ export default function Home() {
 <Pricing_comp/>
 <section class="cta2">
       <div class="cta-wrap" data-aos="zoom-in">
-      <h1 className="about-title" style={{color:"#fff"}}>
-             <span>Smart</span>SafeDrivers
-              {/* <hr/> */}
-            </h1>
+      <img src='./logo.png'/>
 
         <div className="funch-lines">
         <h3>RIDE LIKE ROYALTY</h3>
