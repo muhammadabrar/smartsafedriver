@@ -13,13 +13,12 @@ export default function Footer() {
           <div className="footer-info">
             <h3> Smart Safe Drivers</h3>
             <p>
-              A108 Adam Street <br />
-              NY 535022, USA
+            ACICO Business Park unit 1 <br/>Dubai - United Arab Emirates
               <br />
               <br />
-              <strong>Phone:</strong> +1 5589 55488 55
+              <strong>Phone:</strong> <a href="tel:+971 58 146 2204">+971 58 146 2204</a>
               <br />
-              <strong>Email:</strong> info@example.com
+              <strong>Email:</strong> smartsafedrivers@gmail.com
               <br />
             </p>
           </div>

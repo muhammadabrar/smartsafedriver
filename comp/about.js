@@ -58,7 +58,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
         <div className="why-sd-wrap">
           <div className="about-sds">
             <h1 className="about-sds-title">
-             Why Professional <span>Safe Drivers?</span>
+             Why<span> Smart </span>Safe Drivers?
               {/* <hr/> */}
             </h1>
             <p className="about-sds-notes">
