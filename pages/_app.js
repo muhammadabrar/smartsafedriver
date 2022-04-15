@@ -9,7 +9,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-import Script from "next/Script";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const Layout = Component.layout || (({ children }) => <>{children}</>);
