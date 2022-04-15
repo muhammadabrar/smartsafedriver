@@ -12,8 +12,6 @@ import {
     SprayPaint32
   } from "@carbon/icons-react";
 export default function About() {
-    const [showMediaIcons, setShowMediaIcons] = useState(false);
-    const [booking, setbooking] = useState(false);
     return (
       <>
       

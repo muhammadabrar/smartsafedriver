@@ -3,7 +3,7 @@ import "../style/nav.css";
 import "../style/hero.css";
 import "../style/comit.css";
 
-import Script from 'next/script'
+
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "next/app";
@@ -27,14 +27,14 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <style data-href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap" rel="stylesheet"></style>
 
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=safe7"></Script>
-<Script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVMK6WQ0Q7"></script>
+<script>
+  {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-CVMK6WQ0Q7');
-</Script>
+  gtag('config', 'G-CVMK6WQ0Q7');`}
+</script>
       </Head>
       <body className="body">
 
