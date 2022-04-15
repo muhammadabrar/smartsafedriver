@@ -48,7 +48,7 @@ export default function Contact_comp() {
               ></iframe>
             </div>
             <div className="form-box">
-              <form>
+              <form className="contact-form">
                 <div className="field">
                   <input
                     className="input"
@@ -76,7 +76,7 @@ export default function Contact_comp() {
                     placeholder="Enter Your Msg"
                   ></textarea>
                 </div>
-                <div className="submit">
+                <div className="">
                   <input
                     className="submit-btn"
                     type="submit"

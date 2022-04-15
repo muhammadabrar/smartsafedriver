@@ -7,9 +7,11 @@
   },
   "dependencies": {
     "@carbon/icons-react": "^10.48.0",
+    "axios": "^0.26.1",
     "next": "latest",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-select": "^5.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",

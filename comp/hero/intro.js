@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
 import { MobileDownload32 } from "@carbon/icons-react";
+import Booking from "../booking";
 export default function Intro() {
   const [silde, setsilde] = useState(1);
+  const [booking, setbooking] = useState(false);
+
   useEffect(() => {
     setTimeout(() => {
       setsilde(silde == 1 ? 2 : silde == 2 ? 3 : 1);
@@ -18,18 +21,27 @@ export default function Intro() {
                 <>
                   <div className="caption ">
                     <h1 className="heading">
-                    welcome to smart safe drivers<br/>
-                    <span>Everything You Need</span>
+                      welcome to smart safe drivers
+                      <br />
+                      <span>Everything You Need</span>
                     </h1>
 
                     <p className="hero-text">
-                    Are you looking for a chauffeur in UAE? Wondering about their standard of services? 
-We are providing a range of reliable Safe Driver Services.
-{/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
-<small>let us know when and where you want the Driver to pick you up from, or book online and we’ll call you back to confirm your booking.</small> */}
+                      Are you looking for a chauffeur in UAE? Wondering about
+                      their standard of services? We are providing a range of
+                      reliable Safe Driver Services.
+                      {/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
+<small>let us know when and where you want the Driver to pick you up from, or book online and we’ll WhatsApp you back to confirm your booking.</small> */}
                     </p>
-                    <a  href="tel:+971 58 146 2204"  className="action-btn">Call Now</a>
-                    <a href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="main-action-btn">WhatsApp Now</a>
+                    <a href="tel:+971 58 146 2204" className="action-btn">
+                      WhatsApp Now
+                    </a>
+                    <a
+                      href="#" onClick={()=> setbooking(true)}
+                      className="main-action-btn"
+                    >
+                      Book Now
+                    </a>
                   </div>
                 </>
               )}
@@ -40,19 +52,23 @@ We are providing a range of reliable Safe Driver Services.
                 <>
                   <div className="caption ">
                     <h1 className="heading">
-                    Your car –
-{" "}
-                      <span>Our driver</span>
+                      Your car – <span>Our driver</span>
                     </h1>
                     <p className="hero-text">
-                    You Drink We Drive
-
-Say No To Driving Under Influence<br/>
-                    Have a safe journey to your destination in the comfort of your own car with our professional chauffeur.
-
+                      You Drink We Drive Say No To Driving Under Influence
+                      <br />
+                      Have a safe journey to your destination in the comfort of
+                      your own car with our professional chauffeur.
                     </p>
-                    <a  href="tel:+971 58 146 2204" className="action-btn">Call Now</a>
-                    <a href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className=" main-action-btn">WhatsApp Now</a>
+                    <a href="tel:+971 58 146 2204" className="action-btn">
+                      WhatsApp Now
+                    </a>
+                    <a
+                      href="#" onClick={()=> setbooking(true)}
+                      className=" main-action-btn"
+                    >
+                      Book Now
+                    </a>
                   </div>
                 </>
               )}
@@ -64,18 +80,25 @@ Say No To Driving Under Influence<br/>
                 <>
                   <div className="caption ">
                     <h1 className="heading">
-                    Safe Journey With Awesome Reliable Drivers. <span>Sit Back & Relax.</span>
-
-
+                      Safe Journey With Awesome Reliable Drivers.{" "}
+                      <span>Sit Back & Relax.</span>
                     </h1>
                     <p className="hero-text">
-                    {/* Expect only the best from our wide array of professionally trained drivers as they will take you to your destination safely.  */}
-                    Our drivers undergo specific training to ensure the quality of their services. To ensure the safety of passengers in extreme conditions,
-                     they are trained in defensive driving techniques. 
-
+                      {/* Expect only the best from our wide array of professionally trained drivers as they will take you to your destination safely.  */}
+                      Our drivers undergo specific training to ensure the
+                      quality of their services. To ensure the safety of
+                      passengers in extreme conditions, they are trained in
+                      defensive driving techniques.
                     </p>
-                    <a href="tel:+971 58 146 2204"  className="action-btn">Call Now</a>
-                    <a href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className=" main-action-btn">WhatsApp Now</a>
+                    <a href="tel:+971 58 146 2204" className="action-btn">
+                      WhatsApp Now
+                    </a>
+                    <a
+                      href="#" onClick={()=> setbooking(true)}
+                      className=" main-action-btn"
+                    >
+                      Book Now
+                    </a>
                   </div>
                 </>
               )}
@@ -100,6 +123,7 @@ Say No To Driving Under Influence<br/>
           </ol>
         </div>
       </div>
+      {booking && <Booking close={()=> setbooking(false)} plan={'plan1'} />}
     </>
   );
 }

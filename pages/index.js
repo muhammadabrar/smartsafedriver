@@ -9,7 +9,11 @@ import Nav from '../comp/hero/nav';
 import How_to from '../comp/how_to';
 import Pricing_comp from '../comp/Pricing';
 import Services_comp from '../comp/services';
+import { useState } from "react";
+import Booking from '../comp/booking';
+
 export default function Home() {
+  const [booking, setbooking] = useState(false);
 
   return (
     <>
@@ -29,11 +33,13 @@ export default function Home() {
         <p>SAFE • FRIENDLY • AFFORDABLE</p>
           
         </div>
-        <a class="cta-btn"  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}>Book Now</a>
+        <a class="cta-btn"  href='#!' onClick={()=> setbooking(true)}>Book Now</a>
 
+        
 
       </div>
     </section>
+    {booking && <Booking close={()=> setbooking(false)} plan={'plan1'} />}
 <About/>
 <Contact/>
 <Footer/>

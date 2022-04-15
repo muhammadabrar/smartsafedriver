@@ -25,6 +25,7 @@ export default function Nav(props) {
         return () => { // return a cleanup function to unregister our function since its gonna run multiple times
           window.removeEventListener("scroll", (e) => handleNavigation(e));
         };
+        
       }, []);
     //   console.log(props.active);
 
@@ -47,7 +48,7 @@ export default function Nav(props) {
             <li className={props.active == "home"? "menu-item scrollto active": "menu-item scrollto "}>
               <a href="/">Home  </a>{props.active == "home"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li><li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>
-              <a href="/about">About  </a>{props.active == "about"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
+              <a href="/about">About  {props.active == "about"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}</a>
             </li>
 
             <li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>

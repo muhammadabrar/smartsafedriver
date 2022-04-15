@@ -13,6 +13,7 @@ import {
   } from "@carbon/icons-react";
 export default function About() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
+    const [booking, setbooking] = useState(false);
     return (
       <>
       
@@ -178,7 +179,6 @@ If you or any passenger is experiencing COVID symptoms, please call our dispatch
       </div>
     </section>
 
-    
 
        </>
     )

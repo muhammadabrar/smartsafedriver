@@ -24,7 +24,7 @@ export default function Pricing_comp() {
             <div className="price-plan">
               <div>
                 <h1 className="plan-title">Hourly Plan</h1>
-                <p className="plan-note">Minimum 3 Hours Booking</p>
+                <p className="plan-note">Minimum 2 Hours Booking</p>
                 <hr />
               </div>
               <>
@@ -46,7 +46,7 @@ export default function Pricing_comp() {
               <div>
                 <h1 className="plan-title">Inter-Emirates</h1>
                 <p className="plan-note">
-									No Time Limits
+                Accross the UAE
 								</p>
                 <hr />
               </div>
@@ -62,9 +62,11 @@ export default function Pricing_comp() {
               <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="plan-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan">
-              <h1 className="plan-title">Hourly Plan</h1>
-              <p className="plan-note">Minimum 2 Hours Booking</p>
-              <hr />
+            <div>
+                <h1 className="plan-title">Within-Dubai</h1>
+                <p className="plan-note">Single Pickup Single Drop-off</p>
+                <hr />
+              </div>
               <ul class="plan-points">
 									<li className="point"><i><CheckmarkFilled24 /></i>0 - 10 KM AED 90 </li>
 									<li className="point"><i><CheckmarkFilled24 /></i>10 - 20 KM AED 105</li>
