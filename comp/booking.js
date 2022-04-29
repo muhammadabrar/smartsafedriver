@@ -80,7 +80,7 @@ const Booking = (props) => {
 
     if (feature) {
       await axios
-        .post("http://localhost:5000/api/orders", {
+        .post("api/bookings", {
           name,
           phone,
           location,

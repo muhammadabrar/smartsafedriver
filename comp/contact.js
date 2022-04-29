@@ -1,6 +1,52 @@
 import { useState } from "react";
-import { LocationHeartFilled32, Email32, Phone32 } from "@carbon/icons-react";
+import { LocationHeartFilled32, Email32, contact32 } from "@carbon/icons-react";
+import axios from 'axios';
+import { Close32, CheckmarkFilled32, Close24 } from "@carbon/icons-react";
+
 export default function Contact_comp() {
+const [name, setname] = useState();
+const [contact, setcontact] = useState();
+const [subject, setsubject] = useState();
+const [msg, setmsg] = useState();
+const [successMsg, setsuccessMsg] = useState(false);
+const [errorMsg, seterrorMsg] = useState(false);
+const [loading, setloading] = useState(false);
+
+  const handleForm = async (e) => {
+    e.preventDefault();
+    setloading(true);
+      await axios
+        .post("api/contact", {
+          name,
+          contact,
+          subject,
+          msg,
+          date: Date(),
+        })
+        .then(function (response) {
+          console.log(response);
+          console.log("sublited");
+          setname("");
+          setcontact("");
+          setloading(false);
+          setsuccessMsg(true);
+          seterrorMsg(false);
+          setTimeout(() => {
+            setsuccessMsg(false);
+          }, 10000);
+        })
+        .catch(function (error) {
+          console.log(error);
+          setloading(false);
+
+          seterrorMsg(true);
+          setsuccessMsg(false);
+          setTimeout(() => {
+            seterrorMsg(false);
+          }, 10000);
+        });
+  
+  };
   return (
     <>
       <section id="contact" className="contact">
@@ -27,9 +73,9 @@ export default function Contact_comp() {
               <h3>Email Us</h3>
               <p>smartsafedrivers@gmail.com</p>
             </div>
-            <div className="info-box phone">
+            <div className="info-box contact">
               <i>
-                <Phone32 />
+                <contact32 />
               </i>
               <h3>Call Us</h3>
               <p>
@@ -48,19 +94,38 @@ export default function Contact_comp() {
               ></iframe>
             </div>
             <div className="form-box">
-              <form className="contact-form">
+            {successMsg ? (
+            <>
+              <div className="Success-page">
+                <i className="success-icon">
+                  <CheckmarkFilled32 />
+                </i>
+                <h2 className="success-title">Successful!</h2>
+                <p className="success-text">
+                  <b>Thank you for contact</b>
+                </p>
+                <p className="success-text">
+                  Your query has been submited. Our team will contact you ASAP
+                </p>
+              </div>
+            </>
+          ) : (<><form className="contact-form"  onSubmit={(e) => handleForm(e)}>
                 <div className="field">
                   <input
                     className="input"
                     type="text"
                     placeholder="Enter Your Name"
+                    onChange={(e) => setname(e.target.value)}
+
                   ></input>
                 </div>
                 <div className="field">
                   <input
                     className="input"
                     type="text"
-                    placeholder="Enter Your Email"
+                    placeholder="Enter Your Email or phone No."
+                    onChange={(e) => setcontact(e.target.value)}
+
                   ></input>
                 </div>
                 <div className="field1">
@@ -68,22 +133,32 @@ export default function Contact_comp() {
                     className="input"
                     type="text"
                     placeholder="Enter Subject"
+                    onChange={(e) => setsubject(e.target.value)}
+
                   ></input>
                 </div>
                 <div className="field1">
                   <textarea
                     className="input"
                     placeholder="Enter Your Msg"
+                    onChange={(e) => setmsg(e.target.value)}
+
                   ></textarea>
                 </div>
+                {errorMsg && <div className="Err-msg">
+          <p>Someting is wrong please try again</p>
+          <i onClick={() => seterrorMsg(false)}>
+            <Close24 />
+          </i>
+          </div>}
                 <div className="">
-                  <input
+                <button
                     className="submit-btn"
                     type="submit"
-                    placeholder="Name"
-                  ></input>
+                    disabled={loading}
+                  >{loading? "Loading...":"submit"}</button>
                 </div>
-              </form>
+              </form></> )}
             </div>
           </div>
         </div>

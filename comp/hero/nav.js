@@ -46,20 +46,20 @@ export default function Nav(props) {
 
           <ul className="menu">
             <li className={props.active == "home"? "menu-item scrollto active": "menu-item scrollto "}>
-              <a href="/">Home  </a>{props.active == "home"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
-            </li><li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>
-              <a href="/about">About  {props.active == "about"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}</a>
+              <a href="/" className='menu-item-detail'>Home  </a>{props.active == "home"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
+            </li><li className={props.active == "about"? "menu-item scrollto active": "menu-item scrollto "}>
+              <a href="/about" className='menu-item-detail'>About  {props.active == "about"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}</a>
             </li>
 
             <li className={props.active == "services"? "menu-item scrollto active": "menu-item scrollto "}>
-              <a href="/services">Services  </a>{props.active == "services"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
+              <a href="/services" className='menu-item-detail'>Services  </a>{props.active == "services"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li>
             
             <li className={props.active == "pricing"? "menu-item scrollto active": "menu-item scrollto "}>
-              <a href="/pricing">Pricing</a>{props.active == "pricing"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
+              <a href="/pricing" className='menu-item-detail'>Pricing</a>{props.active == "pricing"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li>
             <li className={props.active == "contact"? "menu-item scrollto active": "menu-item scrollto "}>
-              <a href="/contact">Contact Us</a>{props.active == "contact"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
+              <a href="/contact" className='menu-item-detail'>Contact Us</a>{props.active == "contact"?<i><ArrowDown16 /></i>:<i><ArrowRight16 /></i>}
             </li>
             <label for="chk" className="hide-menu-btn">
               <i><Close32 /></i>

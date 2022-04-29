@@ -1,0 +1,14 @@
+
+GET http://localhost:3000/api/contact HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/contact HTTP/1.1
+content-type: application/json
+
+{
+    "name":"new order",
+"contact":"1213232",
+"subject":"fdsfsfds",
+"msg":"440"
+}

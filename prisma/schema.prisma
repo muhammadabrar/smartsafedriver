@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = "mongodb+srv://SmartSafedrivers:SafeLocKer229@cluster0.x7ejc.mongodb.net/Cluster0?retryWrites=true&w=majority"
+}
+
+model booking {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  phone    String
+  location String
+  price    String
+  plan     String
+  feature  String
+  status   String
+  date     String
+}
+
+model feedback {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  name   String
+  rating String
+  msg    String
+  date   String
+}
+
+model contacts {
+  id      String @id @default(auto()) @map("_id") @db.ObjectId
+  name    String
+  contact String
+  subject String
+  msg     String
+  date   String
+
+}

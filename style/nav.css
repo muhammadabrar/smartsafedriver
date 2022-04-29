@@ -101,6 +101,12 @@ header {
 /* .menu-item.active a{
   color: var(--primary);
 } */
+.menu-item-detail{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
 .show-menu-btn,
 .hide-menu-btn {
   transition: 0.4s;
