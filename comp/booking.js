@@ -87,7 +87,6 @@ const Booking = (props) => {
           price,
           plan,
           feature: feature,
-          status: "panding",
           date: Date(),
         })
         .then(function (response) {
