@@ -32,7 +32,7 @@ const Booking = (props) => {
   ]);
 
   const [loading, setloading] = useState(false);
-  const [plan, setplan] = useState(props.plan);
+  const [plan, setplan] = useState('plan1');
   const [name, setname] = useState("");
   const [phone, setphone] = useState("");
   const [location, setlocation] = useState("");
@@ -149,13 +149,13 @@ const Booking = (props) => {
 
 
   return (
-    <div >
+    <div className="model">
       <div className="model-card">
         <div className="model-header">
           <h1>Book your ride now</h1>
-          <i onClick={() => props.close()}>
+          <a href="/">
             <Close32 />
-          </i>
+          </a>
         </div>
         <div className="model-body">
           {successMsg ? (

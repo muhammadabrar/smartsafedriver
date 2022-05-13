@@ -123,7 +123,8 @@ export default function Intro() {
           </ol>
         </div>
       </div>
-      {booking && <Booking close={()=> setbooking(false)} plan={'plan1'} />}
+
+      {/* {booking && <Booking close={()=> setbooking(false)} plan={'plan1'} />} */}
     </>
   );
 }

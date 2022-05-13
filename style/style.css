@@ -62,7 +62,6 @@ button{
 
 
 
-
 .section-title span{
     color: var(--primary);
 }
@@ -1152,13 +1151,8 @@ color: #353739;
 
 
 .model{
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  /* background-color: #0c0c0c22; */
-  top: 0;
-  
-  z-index: 999;
+  display: flex;
+  justify-content: center;
 }
 .model-overlay{
   background-color: #0000005f;
@@ -1170,10 +1164,7 @@ color: #353739;
 .model-card{
   width: 50%;
   /* height: 50vh; */
-  position: absolute;
-  top: 0;
-  left: 50%;
-    transform: translate(-50%, 50%);
+  /* position: absolute; */
   background-color: #fff;
   border-radius: 1rem;
   padding: 2rem;
@@ -1289,10 +1280,17 @@ color: #353739;
   color: #e82d2d;
   margin-top: 1rem;
 }
-@media screen and (max-width: 650px) {
-  .model-card{
-  width: 80vw;
 
-    transform: translate(-50%, 30%);
+
+
+@media screen and (max-width: 550px) {
+  .model-card{
+    width: 100%;
+    font-size: .8rem;
+    margin-bottom: 50rem;
   }
+  .booking-tabs>li{
+    font-size: 1.2rem;
+  }
+
 }

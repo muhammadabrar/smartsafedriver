@@ -1,15 +1,14 @@
+
 import "../style/style.css";
 import "../style/nav.css";
 import "../style/hero.css";
 import "../style/comit.css";
-
 
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-// import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   const Layout = Component.layout || (({ children }) => <>{children}</>);

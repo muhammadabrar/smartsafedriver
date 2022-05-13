@@ -2,6 +2,8 @@
   width: 100vw;
   height: 95vh;
   position: relative;
+overflow-x: hidden;
+
 }
 
 .carousel ul {
@@ -26,6 +28,8 @@
   object-fit: cover;
   object-position: center;
   opacity: 0.5;
+overflow-x: hidden;
+
 }
 
 .slide.active {
@@ -42,6 +46,7 @@
 }
 .hero-text{
   color: #fff;
+  overflow-x: hidden;
 
 }
 .heading {
