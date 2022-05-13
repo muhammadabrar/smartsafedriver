@@ -37,7 +37,7 @@ export default function Intro() {
                       WhatsApp Now
                     </a>
                     <a
-                      href="#" onClick={()=> setbooking(true)}
+                      href="/booking" 
                       className="main-action-btn"
                     >
                       Book Now
@@ -64,7 +64,7 @@ export default function Intro() {
                       WhatsApp Now
                     </a>
                     <a
-                      href="#" onClick={()=> setbooking(true)}
+                      href="/booking" 
                       className=" main-action-btn"
                     >
                       Book Now
@@ -94,7 +94,7 @@ export default function Intro() {
                       WhatsApp Now
                     </a>
                     <a
-                      href="#" onClick={()=> setbooking(true)}
+                      href="/booking" 
                       className=" main-action-btn"
                     >
                       Book Now
