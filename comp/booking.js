@@ -281,7 +281,7 @@ const Booking = (props) => {
 
                 <div className="row">
                    
-                  {/* <button className="submit-btn" type="submit" href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}>whatsApp</button> */}
+                  {/* <button className="submit-btn" type="submit" href={`https://wa.me/971581462204?text=hello, I would like to book a safe driver.`}>whatsApp</button> */}
                   <button
                     className="submit-btn"
                     type="submit"

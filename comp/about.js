@@ -50,7 +50,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
               enough then we we shouldn’t be in the business in the first
               place..</p>
           <a class="cta-btn"  href={`tel:${phone}`}>Call Now</a>
-          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}}  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`}>WhatsApp Now</a>
+          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}}  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}>WhatsApp Now</a>
         </div>
 
       </div>
@@ -125,7 +125,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
                 <p>Weekly Bookings</p>
               </div>
             </div>
-            <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn " >WhatsApp Now</a>
+            <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn " >WhatsApp Now</a>
           </div>
         </div>
       </section>

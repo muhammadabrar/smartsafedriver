@@ -31,18 +31,18 @@ export default function Pricing_comp() {
               </div>
               <>
               <ul class="plan-points">
-										<li className="point"><i><CheckmarkFilled24 /></i>2 Hours AED 160</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>3 Hours AED 240</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>4 Hours AED 320</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>5 Hours AED 400</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>8 Hours (1 Day) AED 500</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>16 Hours (2 Days) AED 1000</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>24 Hours (3 Days) AED 1500</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>2 Hours QAR 160</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>3 Hours QAR 240</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>4 Hours QAR 320</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>5 Hours QAR 400</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>8 Hours (1 Day) QAR 500</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>16 Hours (2 Days) QAR 1000</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>24 Hours (3 Days) QAR 1500</li>
 									</ul>
                
                 
               </>
-              <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+              <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan active">
               <div>
@@ -53,15 +53,17 @@ export default function Pricing_comp() {
                 <hr />
               </div>
               <ul class="plan-points">
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Abu Dhabi AED 440</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Sharjah AED 160</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Ajman AED 210</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> UAQ AED 240</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Rak AED 400</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Fujairah AED 400</li>
-										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Al Ain AED 400</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Madinat ash Shamal QAR 440</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Ar Rayyan QAR 160</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Al Wakrah 210</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Al Khawr QAR 240</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Baladiyat Umm Salal  QAR 400</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Baladiyat ar Rayyan  QAR 400</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Baladiyat ad Dawhah QAR 400</li>
+										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Baladiyat az Za`ayin QAR 400</li>
+
 									</ul>
-              <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="plan-btn ">WhatsApp Now</a>
+              <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="plan-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan">
             <div>
@@ -70,15 +72,15 @@ export default function Pricing_comp() {
                 <hr />
               </div>
               <ul class="plan-points">
-									<li className="point"><i><CheckmarkFilled24 /></i>0 - 10 KM AED 90 </li>
-									<li className="point"><i><CheckmarkFilled24 /></i>10 - 20 KM AED 105</li>
-									<li className="point"><i><CheckmarkFilled24 /></i>20 - 30 KM AED 120</li>
-									<li className="point"><i><CheckmarkFilled24 /></i>30 - 40 KM AED 135</li>
-									<li className="point"><i><CheckmarkFilled24 /></i>40 - 50 KM AED 150</li>
-									<li className="point"><i><CheckmarkFilled24 /></i>50 - 60 KM AED 165</li>
-									<li className="point"><i><CheckmarkFilled24 /></i>60 - 70 KM AED 180</li>
+									<li className="point"><i><CheckmarkFilled24 /></i>0 - 10 KM QAR 90 </li>
+									<li className="point"><i><CheckmarkFilled24 /></i>10 - 20 KM QAR 105</li>
+									<li className="point"><i><CheckmarkFilled24 /></i>20 - 30 KM QAR 120</li>
+									<li className="point"><i><CheckmarkFilled24 /></i>30 - 40 KM QAR 135</li>
+									<li className="point"><i><CheckmarkFilled24 /></i>40 - 50 KM QAR 150</li>
+									<li className="point"><i><CheckmarkFilled24 /></i>50 - 60 KM QAR 165</li>
+									<li className="point"><i><CheckmarkFilled24 /></i>60 - 70 KM QAR 180</li>
 									</ul>
-              <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+              <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
             </div>
           </div>
         </div>
