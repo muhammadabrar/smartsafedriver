@@ -4,7 +4,7 @@ import Booking from "../booking";
 export default function Intro() {
   const [silde, setsilde] = useState(1);
   const [booking, setbooking] = useState(false);
-
+ const [phone, setphone] = useState(971544490233);
   useEffect(() => {
     setTimeout(() => {
       setsilde(silde == 1 ? 2 : silde == 2 ? 3 : 1);
@@ -33,7 +33,7 @@ export default function Intro() {
                       {/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
 <small>let us know when and where you want the Driver to pick you up from, or book online and we’ll WhatsApp you back to confirm your booking.</small> */}
                     </p>
-                    <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}  className="action-btn">
+                    <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`}  className="action-btn">
                       WhatsApp Now
                     </a>
                     <a
@@ -60,7 +60,7 @@ export default function Intro() {
                       Have a safe journey to your destination in the comfort of
                       your own car with our professional chauffeur.
                     </p>
-                    <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}  className="action-btn">
+                    <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`}  className="action-btn">
                       WhatsApp Now
                     </a>
                     <a
@@ -90,7 +90,7 @@ export default function Intro() {
                       passengers in extreme conditions, they are trained in
                       defensive driving techniques.
                     </p>
-                    <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}  className="action-btn">
+                    <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`}  className="action-btn">
                       WhatsApp Now
                     </a>
                     <a

@@ -3,6 +3,8 @@ import {
     CheckmarkFilled24, ChevronRight16
   } from "@carbon/icons-react";
 export default function Pricing_comp() {
+ const [phone, setphone] = useState(971544490233);
+
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
       <>
@@ -40,7 +42,7 @@ export default function Pricing_comp() {
                
                 
               </>
-              <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+              <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan active">
               <div>
@@ -59,7 +61,7 @@ export default function Pricing_comp() {
 										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Fujairah AED 400</li>
 										<li className="point"><i><CheckmarkFilled24 /></i>Dubai <ChevronRight16/> Al Ain AED 400</li>
 									</ul>
-              <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="plan-btn ">WhatsApp Now</a>
+              <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="plan-btn ">WhatsApp Now</a>
             </div>
             <div className="price-plan">
             <div>
@@ -76,7 +78,7 @@ export default function Pricing_comp() {
 									<li className="point"><i><CheckmarkFilled24 /></i>50 - 60 KM AED 165</li>
 									<li className="point"><i><CheckmarkFilled24 /></i>60 - 70 KM AED 180</li>
 									</ul>
-              <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+              <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
             </div>
           </div>
         </div>

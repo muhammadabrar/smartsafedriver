@@ -12,6 +12,8 @@ import {
     SprayPaint32
   } from "@carbon/icons-react";
 export default function About() {
+ const [phone, setphone] = useState(971544490233);
+
     return (
       <>
       
@@ -47,8 +49,8 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
               clients call us when they need someone the most, If we aren’t good
               enough then we we shouldn’t be in the business in the first
               place..</p>
-          <a class="cta-btn"  href="tel:+971 58 146 2204">Call Now</a>
-          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}}  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`}>WhatsApp Now</a>
+          <a class="cta-btn"  href={`tel:${phone}`}>Call Now</a>
+          <a class="cta-btn" style={{backgroundColor: "#FFBB3A"}}  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`}>WhatsApp Now</a>
         </div>
 
       </div>
@@ -123,7 +125,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
                 <p>Weekly Bookings</p>
               </div>
             </div>
-            <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn " >WhatsApp Now</a>
+            <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn " >WhatsApp Now</a>
           </div>
         </div>
       </section>

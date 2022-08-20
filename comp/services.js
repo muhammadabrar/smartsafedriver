@@ -10,6 +10,8 @@ import {
 } from "@carbon/icons-react";
 import { useState } from "react";
 export default function Services_comp() {
+ const [phone, setphone] = useState(971544490233);
+
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
@@ -47,7 +49,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 Book Now a Smart Safe Driver Rest assured our safe driver will be waiting for you outside the airport along with your vehicle.
 
                 </p>
-                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+                <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -66,7 +68,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 <p>
                   Impress the love of your life when you go out. Smart Safe Driver can help pre-arrange something special to have it waiting for you on our arrival.<br/> Call for more details.
                 </p>
-                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+                <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -86,7 +88,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 You are on vacation or have Guests looking for someone who could show help you showing around city to your guests? we can offer you city tours with English speaking drivers or guided city tours
 
                 </p>
-                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+                <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -107,7 +109,7 @@ We believe in providing quality services that best meet your travel needs. Our v
  Call for more details.
 
                 </p>
-                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+                <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -130,7 +132,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <br/>
                   Anytime, Anywhere in Dubai
                 </p>
-                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+                <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
             <div
@@ -149,7 +151,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                 <p>
                 Weddings, concerts, theater, dinners and more. When you experience an event with SMART SAFE DRIVERS, you experience an event in a style above the rest.
                 </p>
-                <a  href={`https://wa.me/971581462204?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
+                <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
             </div>
 

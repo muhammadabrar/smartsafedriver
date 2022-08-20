@@ -76,8 +76,9 @@ header {
 
   /* margin-left: 1rem; */
 }
-.menu-item:nth-child(4){
-  border-right: none;
+.menu-item:nth-child(5){
+  border: none;
+  
 }
 .menu-item i {
   padding-left: 1rem;
