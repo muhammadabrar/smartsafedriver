@@ -197,7 +197,7 @@ const Booking = (props) => {
                   className={`tab-item ${plan == "plan3" && "active"}`}
                   onClick={() => setplan("plan3")}
                 >
-                  Within-Dubai
+                  Within-<b>Qatar</b>
                 </li>
               </ul>
               
@@ -227,7 +227,7 @@ const Booking = (props) => {
                   <div className="bookin-field">
                     <div className="field-label">
                       {plan == "plan1"
-                        ? "Dubai to"
+                        ? "<b>Qatar</b> to"
                         : plan == "plan2"
                         ? "Time"
                         : plan == "plan3" && "Distance"}{" "}

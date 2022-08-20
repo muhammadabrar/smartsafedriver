@@ -64,7 +64,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
             </h1>
             <p className="about-sds-notes">
             A safe driver is essential, but so is driving.<br/>
-            Our safe drivers are aware of all the major roads and locations in Dubai to serve you with an enjoyable experience through Private Driver Service in Dubai. No matter your purposes of hiring a safe driver, our sober drivers will help you meet your concerns in a hassle-free manner. With us, you will definitely enjoy 100% dedicated services and meet your every safe driving needs.
+            Our safe drivers are aware of all the major roads and locations in <b>Qatar</b> to serve you with an enjoyable experience through Private Driver Service in <b>Qatar</b>. No matter your purposes of hiring a safe driver, our sober drivers will help you meet your concerns in a hassle-free manner. With us, you will definitely enjoy 100% dedicated services and meet your every safe driving needs.
             </p>
             <hr style={{ marginTop: "2rem", marginRight: "2rem" }} />
             <div className="about-sds-items">

@@ -27,7 +27,7 @@ export default function Intro() {
                     </h1>
 
                     <p className="hero-text">
-                      Are you looking for a chauffeur in UAE? Wondering about
+                      Are you looking for a chauffeur in <b>Qatar</b>? Wondering about
                       their standard of services? We are providing a range of
                       reliable Safe Driver Services.
                       {/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>

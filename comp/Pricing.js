@@ -48,7 +48,7 @@ export default function Pricing_comp() {
               <div>
                 <h1 className="plan-title">Inter-Emirates</h1>
                 <p className="plan-note">
-                Accross the UAE
+                Accross the <b>Qatar</b>
 								</p>
                 <hr />
               </div>

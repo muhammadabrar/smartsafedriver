@@ -22,8 +22,8 @@ export default function Services_comp() {
             {/* <hr/> */}
           </h1>
           <p>
-          We are a chauffeured car service provider in Dubai (UAE), providing a number of safe and reliable services to meet all your travel needs. 
-We provide a high level of personalized customer service for high-net-worth individuals, executives in large corporations and VIP’s setting an example of Dubai’s finest chauffeurs to our leisure and business clients. We take pride in having an exceptionally qualified and reliable elite chauffeur team who are capable of satisfying the most demanding schedule.
+          We are a chauffeured car service provider in <b>Qatar</b>, providing a number of safe and reliable services to meet all your travel needs. 
+We provide a high level of personalized customer service for high-net-worth individuals, executives in large corporations and VIP’s setting an example of <b>Qatar</b>’s finest chauffeurs to our leisure and business clients. We take pride in having an exceptionally qualified and reliable elite chauffeur team who are capable of satisfying the most demanding schedule.
 <br/>
 Whether on business trips, sports or corporate events, hiring a driver in the evening, or a private airport driver transfer, we believe we can meet your expectations and even exceed them. Our fleet of top-notch executive and luxury driver-driven cars is nothing short of impressive, and everyone gets VIP treatment.
 <br/>
@@ -130,7 +130,7 @@ We believe in providing quality services that best meet your travel needs. Our v
                   Safe & fast Delivery<br/>
                   
                   <br/>
-                  Anytime, Anywhere in Dubai
+                  Anytime, Anywhere in <b>Qatar</b>
                 </p>
                 <a  href={`https://wa.me/${phone}?text=I will like to make a booking for a SmartSafeDriver.`} className="service-btn ">WhatsApp Now</a>
               </div>
