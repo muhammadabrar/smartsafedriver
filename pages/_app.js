@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         ></meta>
         <meta name="description" content="Smart Safe Drivers was established with the idea of providing a comfortable travel experience to the general public, business class, tourists and others.
 "></meta>
- <meta name="keywords" content="smart drivers, chauffeur service in Qatar, chauffeur service, chauffeur service in Qatar, chauffeur service Qatar, chauffeur service Qatar airport, After Party Pickup, Qatar Tour, Errand"></meta>
+ <meta name="keywords" content="smart drivers, chauffeur service in uae, chauffeur service, chauffeur service in dubai, chauffeur service abu dhabi, chauffeur service dubai airport, After Party Pickup, uae Tour, Errand"></meta>
         <title>Smart Safe Drivers</title>
         <link rel="icon" type="image/x-icon" href="./logo.ico"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

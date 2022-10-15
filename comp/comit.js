@@ -9,7 +9,7 @@ export default function Comit() {
         <div className="comit-item">
             <i className="icon"><><CurrencyDollar32/></></i>
             <h2>Best Price</h2>
-            <p className="comit-note">Hire a Safe Driver in <b>Qatar</b> at an Affordable price<br/> Save time. Save money. Travel better.</p>
+            <p className="comit-note">Hire a Safe Driver in Dubai at an Affordable price<br/> Save time. Save money. Travel better.</p>
         </div>
         <div className="comit-item">
             <i className="icon"><><Location32 /></></i>
