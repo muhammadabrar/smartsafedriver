@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="footer-info">
             <h3> Smart Safe Drivers</h3>
             <p>
-            Jaidah Square, Al Matar Street, Umm Ghuwailina <br/>Doha - Qatar
+            ACICO Business Park unit 1 <br/>Dubai - United Arab Emirates
               <br />
               <br />
               <strong>Phone:</strong> <a href="tel:+971 58 146 2204">+971 58 146 2204</a>
