@@ -1,4 +1,11 @@
-// import App from 'next/app'
+import "../style/style.css";
+import "../style/nav.css";
+import "../style/hero.css";
+import "../style/comit.css";
+
+
+
+import App from 'next/app'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
