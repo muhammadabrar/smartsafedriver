@@ -30,6 +30,8 @@ function MyApp({ Component, pageProps }) {
         ></meta>
         <title>Smart Safe Drivers</title>
         <link rel="icon" href="./logo.ico"></link>
+        <link rel="shortcut icon" href="./logo.ico"></link>
+
         <link href="./logo.ico" rel="apple-touch-icon"></link>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
