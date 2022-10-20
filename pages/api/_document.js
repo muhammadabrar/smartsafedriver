@@ -18,7 +18,7 @@ export default function Document() {
           content="smart drivers, chauffeur service in uae, chauffeur service, chauffeur service in dubai, chauffeur service abu dhabi, chauffeur service dubai airport, After Party Pickup, uae Tour, Errand"
         ></meta>
         <title>Smart Safe Drivers</title>
-        <link rel="icon" href="./logo.ico"></link>
+        <link rel="icon" sizes="16x16" href="./logo.ico"></link>
         <link rel="shortcut icon" href="./logo.ico"></link>
 
         <link href="./logo.ico" rel="apple-touch-icon"></link>
