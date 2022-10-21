@@ -7,6 +7,7 @@ import How_to from '../comp/how_to';
 import Inner_page from '../comp/inner_page';
 import Pricing from '../comp/Pricing';
 import Services_comp from '../comp/services';
+
 export default function Contact() {
 
   return (

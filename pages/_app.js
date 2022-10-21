@@ -6,9 +6,15 @@ import "../style/comit.css";
 
 
 import App from 'next/app'
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <>
+  <head>
+  <title>Smart Safe Drivers</title>
+
+  </head>
+  <Component {...pageProps} /></>
 }
 
 // Only uncomment this method if you have blocking data requirements for
