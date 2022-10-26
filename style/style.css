@@ -86,6 +86,8 @@ button{
     column-gap: 2rem;
     row-gap: 2rem;
     margin-top: 6rem;
+    align-items: stretch;
+    
 }
 
 
@@ -105,22 +107,30 @@ button{
     }
   }
   
-.service{
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-}
+
 .services .icon-box {
     text-align: center;
+    position: relative;
     padding: 6rem 2rem;
     /* width: initial; */
     /* margin: 2REM; */
     transition: all ease-in-out 0.3s;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    background-color: #ffba3a7d;
+    /* background-color: #1c1c1c31; */
     color: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
   }
-  
+  .background-image{
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    z-index: -10;
+  }
   .services .icon-box .icon {
     margin: 0 auto;
     width: 6.4rem;
@@ -159,19 +169,19 @@ button{
   }
   
   .services .icon-box h4 a {
-    color: #ffff;
+    color: #000;
     
   }
-  
+ 
   .services .icon-box p {
     /* line-height: 24px; */
     font-size: 1.6rem;
     margin-bottom: 0;
-    color: #fff;
+    color: #000;
   }
   
   .services .icon-box:hover {
-    background: var(--primary);
+    background-color: var(--primary) !important;
     border-color: var(--primary);
     padding: 5rem 2rem 7rem 2rem;
   }
@@ -206,13 +216,11 @@ button{
     background-color: var(--primary);
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 
-
     color: #fff;
   }
 .service-btn:hover{
-  background: var(--primary);
-  border: 2px solid var(--primary);
-  box-shadow: 0 0 8px var(--primary);
+  background: #FFF;
+  color: var(--primary);
 
 }
 .service-btn:focus {

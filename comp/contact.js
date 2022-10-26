@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { LocationHeartFilled32, Email32, contact32 } from "@carbon/icons-react";
+import { LocationHeartFilled32, Email32 } from "@carbon/icons-react";
 import axios from 'axios';
 import { Close32, CheckmarkFilled32, Close24 } from "@carbon/icons-react";
+import { Phone32 } from "@carbon/icons-react";
+
 
 export default function Contact_comp() {
 const [name, setname] = useState();
@@ -12,39 +14,42 @@ const [successMsg, setsuccessMsg] = useState(false);
 const [errorMsg, seterrorMsg] = useState(false);
 const [loading, setloading] = useState(false);
 
+
   const handleForm = async (e) => {
     e.preventDefault();
-    setloading(true);
-      await axios
-        .post("api/contact", {
-          name,
-          contact,
-          subject,
-          msg,
-          date: Date(),
-        })
-        .then(function (response) {
-          console.log(response);
-          console.log("sublited");
-          setname("");
-          setcontact("");
-          setloading(false);
-          setsuccessMsg(true);
-          seterrorMsg(false);
-          setTimeout(() => {
-            setsuccessMsg(false);
-          }, 10000);
-        })
-        .catch(function (error) {
-          console.log(error);
-          setloading(false);
+    
 
-          seterrorMsg(true);
-          setsuccessMsg(false);
-          setTimeout(() => {
-            seterrorMsg(false);
-          }, 10000);
-        });
+    setloading(true);
+      // await axios
+      //   .post("api/contact", {
+      //     name,
+      //     contact,
+      //     subject,
+      //     msg,
+      //     date: Date(),
+      //   })
+      //   .then(function (response) {
+      //     console.log(response);
+      //     console.log("sublited");
+      //     setname("");
+      //     setcontact("");
+      //     setloading(false);
+      //     setsuccessMsg(true);
+      //     seterrorMsg(false);
+      //     setTimeout(() => {
+      //       setsuccessMsg(false);
+      //     }, 10000);
+      //   })
+      //   .catch(function (error) {
+      //     console.log(error);
+      //     setloading(false);
+
+      //     seterrorMsg(true);
+      //     setsuccessMsg(false);
+      //     setTimeout(() => {
+      //       seterrorMsg(false);
+      //     }, 10000);
+      //   });
   
   };
   return (
@@ -71,11 +76,11 @@ const [loading, setloading] = useState(false);
                 <Email32 />
               </i>
               <h3>Email Us</h3>
-              <p>smartsafedrivers@gmail.com</p>
+              <p><a href="mailto:smartsafedrivers@gmail.com">smartsafedrivers@gmail.com</a></p>
             </div>
-            <div className="info-box contact">
+            <div className="info-box email">
               <i>
-                <contact32 />
+              <Phone32 />
               </i>
               <h3>Call Us</h3>
               <p>

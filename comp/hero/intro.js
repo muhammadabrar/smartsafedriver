@@ -20,6 +20,7 @@ export default function Intro() {
               {silde == 1 && (
                 <>
                   <div className="caption ">
+                    <div className="wrap-hero">
                     <h1 className="heading">
                       welcome to smart safe drivers
                       <br />
@@ -42,6 +43,7 @@ export default function Intro() {
                     >
                       Book Now
                     </a>
+                    </div>
                   </div>
                 </>
               )}
@@ -51,6 +53,7 @@ export default function Intro() {
               {silde == 2 && (
                 <>
                   <div className="caption ">
+                    <div className="wrap-hero">
                     <h1 className="heading">
                       Your car – <span>Our driver</span>
                     </h1>
@@ -69,6 +72,7 @@ export default function Intro() {
                     >
                       Book Now
                     </a>
+                    </div>
                   </div>
                 </>
               )}
@@ -79,6 +83,7 @@ export default function Intro() {
               {silde == 3 && (
                 <>
                   <div className="caption ">
+                    <div className="wrap-hero">
                     <h1 className="heading">
                       Safe Journey With Awesome Reliable Drivers.{" "}
                       <span>Sit Back & Relax.</span>
@@ -99,14 +104,15 @@ export default function Intro() {
                     >
                       Book Now
                     </a>
+                    </div>
                   </div>
                 </>
               )}
             </li>
           </ul>
-          <button className="go-down" href="#services">
+          {/* <button className="go-down" href="#services">
             <MobileDownload32 />
-          </button>
+          </button> */}
           <ol className="carousel-indicators">
             <li
               className={silde == 1 && "active"}

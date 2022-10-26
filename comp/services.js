@@ -6,11 +6,13 @@ import {
   TrafficFlow32,
   CabinCareAlert32,
   Delivery32,
-  Event32
+  Event32,
 } from "@carbon/icons-react";
+import Image from "next/image";
+import airport from '../public/hero/airport.jpeg';
 import { useState } from "react";
 export default function Services_comp() {
- const [phone, setphone] = useState(971544490233);
+  const [phone, setphone] = useState(971544490233);
 
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
@@ -22,20 +24,31 @@ export default function Services_comp() {
             {/* <hr/> */}
           </h1>
           <p>
-          We are a chauffeured car service provider in Dubai (UAE), providing a number of safe and reliable services to meet all your travel needs. 
-We provide a high level of personalized customer service for high-net-worth individuals, executives in large corporations and VIP’s setting an example of Dubai’s finest chauffeurs to our leisure and business clients. We take pride in having an exceptionally qualified and reliable elite chauffeur team who are capable of satisfying the most demanding schedule.
-<br/>
-Whether on business trips, sports or corporate events, hiring a driver in the evening, or a private airport driver transfer, we believe we can meet your expectations and even exceed them. Our fleet of top-notch executive and luxury driver-driven cars is nothing short of impressive, and everyone gets VIP treatment.
-<br/>
-We believe in providing quality services that best meet your travel needs. Our vision is to provide quality services to our passengers.
-
+            We are a chauffeured car service provider in Dubai (UAE), providing
+            a number of safe and reliable services to meet all your travel
+            needs. We provide a high level of personalized customer service for
+            high-net-worth individuals, executives in large corporations and
+            VIP’s setting an example of Dubai’s finest chauffeurs to our leisure
+            and business clients. We take pride in having an exceptionally
+            qualified and reliable elite chauffeur team who are capable of
+            satisfying the most demanding schedule.
+            <br />
+            Whether on business trips, sports or corporate events, hiring a
+            driver in the evening, or a private airport driver transfer, we
+            believe we can meet your expectations and even exceed them. Our
+            fleet of top-notch executive and luxury driver-driven cars is
+            nothing short of impressive, and everyone gets VIP treatment.
+            <br />
+            We believe in providing quality services that best meet your travel
+            needs. Our vision is to provide quality services to our passengers.
           </p>
           <div className="services-items">
-            <div
+            {/* <div
               className="service"
-              style={{ backgroundImage: `url('./hero/airport.jpeg')` }}
-            >
+              // style={{ backgroundImage: `url('./hero/airport.jpeg')` }}
+            > */}
               <div className="icon-box">
+              
                 <div className="icon">
                   <i>
                     <Plane32 />
@@ -45,18 +58,26 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <a href="">Airport Transfers</a>
                 </h4>
                 <p>
-                Need a ride to or from the airport? Or, want to send a car and driver to make a positive impression on a client?
-                Book Now a Smart Safe Driver Rest assured our safe driver will be waiting for you outside the airport along with your vehicle.
-
+                  Need a ride to or from the airport? Or, want to send a car and
+                  driver to make a positive impression on a client? Book Now a
+                  Smart Safe Driver Rest assured our safe driver will be waiting
+                  for you outside the airport along with your vehicle.
                 </p>
-                <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
-              </div>
+                <a
+                  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}
+                  className="service-btn "
+                >
+                  WhatsApp Now
+                </a>
+                {/* <Image className="background-image" layout='fill' src={airport} /> */}
+              {/* </div> */}
             </div>
-            <div
+            {/* <div
               className="service"
-              style={{ backgroundImage: `url('./hero/party.jpg')` }}
-            >
+              // style={{ backgroundImage: `url('./hero/party.jpg')` }}
+            > */}
               <div className="icon-box">
+              {/* <Image className="background-image" layout='fill' src="/hero/party.jpg" /> */}
                 <div className="icon">
                   <i>
                     <PassengerDrinks32 />
@@ -66,16 +87,25 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <a href="">ROMANCE or After Party Pickup</a>
                 </h4>
                 <p>
-                  Impress the love of your life when you go out. Smart Safe Driver can help pre-arrange something special to have it waiting for you on our arrival.<br/> Call for more details.
+                  Impress the love of your life when you go out. Smart Safe
+                  Driver can help pre-arrange something special to have it
+                  waiting for you on our arrival.
+                  <br /> Call for more details.
                 </p>
-                <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
-              </div>
+                <a
+                  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}
+                  className="service-btn "
+                >
+                  WhatsApp Now
+                </a>
+              {/* </div> */}
             </div>
-            <div
+            {/* <div
               className="service"
-              style={{ backgroundImage: `url('./hero/bg1.jpg')` }}
-            >
+              // style={{ backgroundImage: `url('./hero/bg1.jpg')` }}
+            > */}
               <div className="icon-box">
+              {/* <Image className="background-image" layout='fill' src="/hero/bg1.jpg" /> */}
                 <div className="icon">
                   <i>
                     <Enterprise32 />
@@ -85,17 +115,25 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <a href="">City Tour</a>
                 </h4>
                 <p>
-                You are on vacation or have Guests looking for someone who could show help you showing around city to your guests? we can offer you city tours with English speaking drivers or guided city tours
-
+                  You are on vacation or have Guests looking for someone who
+                  could show help you showing around city to your guests? we can
+                  offer you city tours with English speaking drivers or guided
+                  city tours
                 </p>
-                <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
-              </div>
+                <a
+                  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}
+                  className="service-btn "
+                >
+                  WhatsApp Now
+                </a>
+              {/* </div> */}
             </div>
-            <div
+            {/* <div
               className="service"
-              style={{ backgroundImage: `url('./hero/corporate.jpg')` }}
-            >
+              // style={{ backgroundImage: `url('./hero/corporate.jpg')` }}
+            > */}
               <div className="icon-box">
+              {/* <Image className="background-image" layout='fill' src="/hero/corporate.jpg" /> */}
                 <div className="icon">
                   <i>
                     <CarFront32 />
@@ -105,54 +143,76 @@ We believe in providing quality services that best meet your travel needs. Our v
                   <a href="">Corporate Transfers</a>
                 </h4>
                 <p>
-                Set your company up with a SMART SAFE DRIVERS CORPORATE ACCOUNT and your team can quickly book rides to help your company grow and save on every ride. We Provide You Awesome Drivers with professional and experienced chauffeurs.
- Call for more details.
-
+                  Set your company up with a SMART SAFE DRIVERS CORPORATE
+                  ACCOUNT and your team can quickly book rides to help your
+                  company grow and save on every ride. We Provide You Awesome
+                  Drivers with professional and experienced chauffeurs. Call for
+                  more details.
                 </p>
-                <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
-              </div>
+                <a
+                  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}
+                  className="service-btn "
+                >
+                  WhatsApp Now
+                </a>
+              {/* </div> */}
             </div>
-            <div
+            {/* <div
               className="service"
-              style={{ backgroundImage: `url('./hero/roadtrip.jpg')` }}
-            >
+              // style={{ backgroundImage: `url('./hero/roadtrip.jpg')` }}
+            > */}
               <div className="icon-box">
+              {/* <Image className="background-image" layout='fill' src="/hero/roadtrip.jpg" /> */}
+
                 <div className="icon">
                   <i>
-                  <Delivery32 />
+                    <Delivery32 />
                   </i>
                 </div>
                 <h4>
                   <a href="">Errand</a>
                 </h4>
                 <p>
-                <br/>
-                  Safe & fast Delivery<br/>
-                  
-                  <br/>
+                  <br />
+                  Safe & fast Delivery
+                  <br />
+                  <br />
                   Anytime, Anywhere in Dubai
                 </p>
-                <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
-              </div>
+                <a
+                  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}
+                  className="service-btn "
+                >
+                  WhatsApp Now
+                </a>
+              {/* </div> */}
             </div>
-            <div
+            {/* <div
               className="service"
-              style={{ backgroundImage: `url('./hero/event.jpg')` }}
-            >
-              <div className="icon-box">
+              // style={{ backgroundImage: `url('./hero/event.jpg')` }}
+            > */}
+              <div className="icon-box" >
+                {/* <Image className="background-image" layout='fill' src="/hero/event.jpg" /> */}
                 <div className="icon">
                   <i>
-                  <Event32 />
+                    <Event32 />
                   </i>
                 </div>
                 <h4>
                   <a href="">EVENTS</a>
                 </h4>
                 <p>
-                Weddings, concerts, theater, dinners and more. When you experience an event with SMART SAFE DRIVERS, you experience an event in a style above the rest.
+                  Weddings, concerts, theater, dinners and more. When you
+                  experience an event with SMART SAFE DRIVERS, you experience an
+                  event in a style above the rest.
                 </p>
-                <a  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`} className="service-btn ">WhatsApp Now</a>
-              </div>
+                <a
+                  href={`https://wa.me/${phone}?text=hello, I would like to book a safe driver.`}
+                  className="service-btn "
+                >
+                  WhatsApp Now
+                </a>
+              {/* </div> */}
             </div>
 
             {/* <div className="service" style={{backgroundImage:`url('./hero/bg1.jpg')`}}>
@@ -166,14 +226,6 @@ We believe in providing quality services that best meet your travel needs. Our v
         </div>
       </section>
 
-
-
-
-      
-      
-     
-
-      
       {/* "https://api.whatsapp.com/send/?phone=971524837505&text=I will like to make a booking for a SafeDriver." */}
     </>
   );
