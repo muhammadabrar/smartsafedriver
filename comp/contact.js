@@ -4,7 +4,6 @@ import axios from 'axios';
 import { Close32, CheckmarkFilled32, Close24 } from "@carbon/icons-react";
 import { Phone32 } from "@carbon/icons-react";
 
-
 export default function Contact_comp() {
 const [name, setname] = useState();
 const [contact, setcontact] = useState();
@@ -14,42 +13,39 @@ const [successMsg, setsuccessMsg] = useState(false);
 const [errorMsg, seterrorMsg] = useState(false);
 const [loading, setloading] = useState(false);
 
-
   const handleForm = async (e) => {
     e.preventDefault();
-    
-
     setloading(true);
-      // await axios
-      //   .post("api/contact", {
-      //     name,
-      //     contact,
-      //     subject,
-      //     msg,
-      //     date: Date(),
-      //   })
-      //   .then(function (response) {
-      //     console.log(response);
-      //     console.log("sublited");
-      //     setname("");
-      //     setcontact("");
-      //     setloading(false);
-      //     setsuccessMsg(true);
-      //     seterrorMsg(false);
-      //     setTimeout(() => {
-      //       setsuccessMsg(false);
-      //     }, 10000);
-      //   })
-      //   .catch(function (error) {
-      //     console.log(error);
-      //     setloading(false);
+      await axios
+        .post("api/contact", {
+          name,
+          contact,
+          subject,
+          msg,
+          date: Date(),
+        })
+        .then(function (response) {
+          console.log(response);
+          console.log("sublited");
+          setname("");
+          setcontact("");
+          setloading(false);
+          setsuccessMsg(true);
+          seterrorMsg(false);
+          setTimeout(() => {
+            setsuccessMsg(false);
+          }, 10000);
+        })
+        .catch(function (error) {
+          console.log(error);
+          setloading(false);
 
-      //     seterrorMsg(true);
-      //     setsuccessMsg(false);
-      //     setTimeout(() => {
-      //       seterrorMsg(false);
-      //     }, 10000);
-      //   });
+          seterrorMsg(true);
+          setsuccessMsg(false);
+          setTimeout(() => {
+            seterrorMsg(false);
+          }, 10000);
+        });
   
   };
   return (
