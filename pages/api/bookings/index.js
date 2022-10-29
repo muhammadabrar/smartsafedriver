@@ -29,7 +29,7 @@ export default async function handle(req, res) {
             })
             const mailData = {
               from: 'smartsafedrivers@gmail.com',
-              to: 'abrarmuhammad100@gmail.com',
+              to: 'abrarmuhammad100 @gmail.com',
               subject: `Message From ${req.body.name} || Booking`,
               html: `<div>Name: <b>${req.body.name}</b><br/>
               Contact: <b>${req.body.phone}</b><br/>

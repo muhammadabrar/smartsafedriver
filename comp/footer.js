@@ -16,7 +16,7 @@ export default function Footer() {
             ACICO Business Park unit 1 <br/>Dubai - United Arab Emirates
               <br />
               <br />
-              <strong>Phone:</strong> <a href="tel:+971 58 146 2204">+971 58 146 2204</a>
+              <strong>Phone:</strong> <a href="tel:+971 54 449 0233">+971 54 449 0233</a>
               <br />
               <strong>Email:</strong> smartsafedrivers@gmail.com
               <br />

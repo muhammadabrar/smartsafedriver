@@ -81,7 +81,7 @@ const [loading, setloading] = useState(false);
               <h3>Call Us</h3>
               <p>
                 {" "}
-                <a href="tel:+971 58 146 2204">+971 58 146 2204</a>
+                <a href="tel:+971 54 449 0233">+971 54 449 0233</a>
               </p>
             </div>
             <div className="info-box map">
