@@ -8,8 +8,9 @@
       <div class="breadcrumbs">
 
         <ol>
-          <li><a className="b-link" href="index.html">Home</a></li>
-          <li>{props.b}</li>
+          <li><a className="b-link" href="/">Home</a></li>
+          {props?.blog && <li><a className="b-link" href="/blogs">Blogs</a></li>}
+          {props.b && <li>{props.b}</li>}
         </ol>
         <h2>{props.b}</h2>
 

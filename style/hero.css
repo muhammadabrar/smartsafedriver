@@ -2,8 +2,7 @@
   width: 100vw;
   height: 95vh;
   position: relative;
-overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
 .carousel ul {
@@ -28,8 +27,7 @@ overflow-x: hidden;
   object-fit: cover;
   object-position: center;
   opacity: 0.5;
-overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
 .slide.active {
@@ -37,21 +35,20 @@ overflow-x: hidden;
   z-index: 1;
   transition-delay: 0ms;
 }
-.caption{
-    position: absolute;
-    top: 40%;
-    /* margin: auto; */
-width: 100%;
+.caption {
+  position: absolute;
+  top: 40%;
+  /* margin: auto; */
+  width: 100%;
 
-    color: #fff;
-}
-.wrap-hero{
- width: 80%;
- margin: auto;
-}
-.hero-text{
   color: #fff;
-
+}
+.wrap-hero {
+  width: 80%;
+  margin: auto;
+}
+.hero-text {
+  color: #fff;
 }
 .heading {
   font-size: 6rem;
@@ -59,8 +56,6 @@ width: 100%;
 
   animation: fadeInRight 1s ease-in-out;
   color: #fff;
-
-  /* border-bottom: #000 1px solid; */
 }
 .heading span {
   color: var(--primary);
@@ -108,7 +103,6 @@ width: 100%;
   animation: fadeUp 1s ease-in-out;
 }
 .main-action-btn {
-  
   font-size: 1.4rem;
   font-weight: 700;
   color: #fff;
@@ -122,13 +116,13 @@ width: 100%;
   animation: fadeUp 1s ease-in-out;
 }
 @media screen and (max-width: 600px) {
-    .carousel{
-        height: 80vh;
-    }
-    .heading{
-      font-size: 4rem;
+  .carousel {
+    height: 80vh;
   }
-    /* .caption{
+  .heading {
+    font-size: 4rem;
+  }
+  /* .caption{
         margin: 0 2rem;
         top: 20%;
         width: 95%;
@@ -191,7 +185,6 @@ width: 100%;
     opacity: 1;
   }
 }
-
 
 .go-down {
   position: absolute;
@@ -270,14 +263,13 @@ width: 100%;
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 500px) {
-    .content{
-        margin: 0 .5rem;
-        top: 40%;
-    }
-    .heading{
-      font-size: 3rem;
+  .content {
+    margin: 0 0.5rem;
+    top: 40%;
+  }
+  .heading {
+    font-size: 3rem;
   }
   /* .content-wrap{
       width: 40rem;
