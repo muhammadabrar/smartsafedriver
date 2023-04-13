@@ -47,9 +47,7 @@ export default function Footer() {
           <div className="footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li>
-                <i ><ChevronRight16 /></i> <a href="#">Web Design</a>
-              </li>
+       
               <li>
                 <i ><ChevronRight16 /></i>{" "}
                 <a href="#">Airport Transfers</a>
