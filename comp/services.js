@@ -23,25 +23,9 @@ export default function Services_comp() {
             Our <span>Services</span>
             {/* <hr/> */}
           </h1>
-          <p>
-            We are a chauffeured car service provider in Dubai (UAE), providing
-            a number of safe and reliable services to meet all your travel
-            needs. We provide a high level of personalized customer service for
-            high-net-worth individuals, executives in large corporations and
-            VIP’s setting an example of Dubai’s finest chauffeurs to our leisure
-            and business clients. We take pride in having an exceptionally
-            qualified and reliable elite chauffeur team who are capable of
-            satisfying the most demanding schedule.
-            <br />
-            Whether on business trips, sports or corporate events, hiring a
-            driver in the evening, or a private airport driver transfer, we
-            believe we can meet your expectations and even exceed them. Our
-            fleet of top-notch executive and luxury driver-driven cars is
-            nothing short of impressive, and everyone gets VIP treatment.
-            <br />
-            We believe in providing quality services that best meet your travel
-            needs. Our vision is to provide quality services to our passengers.
-          </p>
+          <p>Our experienced and courteous drivers will get you and your car safely home, no matter where you are in the UAE. Whether you're looking for a one-time service or a regular designated driver, we have flexible and affordable options to fit your needs and budget.</p>
+          <p>But our services don't stop there. We also offer chauffer services for those who need a personal driver for business or leisure, as well as the cheapest driver in Dubai for those who want to save money without sacrificing quality.</p>
+
           <div className="services-items">
             {/* <div
               className="service"

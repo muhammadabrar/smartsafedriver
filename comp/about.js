@@ -26,14 +26,10 @@ export default function About() {
             </h1>
 
             <p className="about-notes">
-            Smart Safe Drivers was established with the idea of ​​providing a comfortable travel experience to the general public, business class, tourists and others.
-            <br/>
-             The goal of the best secure driver is to provide equal value to each of your users.
-             <br/>
+            At Smart Safe Drivers, we understand the importance of safety, reliability, and affordability. That's why we pride ourselves on our exceptional customer service and attention to detail, ensuring a stress-free and enjoyable experience every time.
+<br/>
+Don't take unnecessary risks on the road. Choose Smart Safe Drivers for all your driving needs in Dubai and the UAE. Contact us today to learn more and book your next ride.
 
-In the meantime, we keep in touch with our drivers to monitor the quality of our service and maintain your level of satisfaction. <br/>We work with a customer first approach that allows us to earn your trust.
-
-Furthermore, once you book your ride, the best safe driver is immediately available at your service. <br/>Our mission is to provide the best service to each of our customers and to maintain quality standards.
             </p>
             {/* <hr style={{ marginTop: "2rem", marginRight: "2rem" }} /> */}
           </div>
@@ -63,8 +59,7 @@ Furthermore, once you book your ride, the best safe driver is immediately availa
               {/* <hr/> */}
             </h1>
             <p className="about-sds-notes">
-            A safe driver is essential, but so is driving.<br/>
-            Our safe drivers are aware of all the major roads and locations in Dubai to serve you with an enjoyable experience through Private Driver Service in Dubai. No matter your purposes of hiring a safe driver, our sober drivers will help you meet your concerns in a hassle-free manner. With us, you will definitely enjoy 100% dedicated services and meet your every safe driving needs.
+            The top sober driving service in Dubai and the United Arab Emirates is Smart Safe Drivers. Smart Safe Drivers offers flexible and reasonable choices for occasional or regular designated drivers, as well as chauffeur services for business or leisure.  They provide peace of mind and a stress-free experience by ensuring that you and your car are transported securely to your preferred place by their friendly and skilled drivers. For a sensible and responsible choice for your driving requirements in Dubai and the UAE, select Smart Safe Drivers.
             </p>
             <hr style={{ marginTop: "2rem", marginRight: "2rem" }} />
             <div className="about-sds-items">

@@ -28,9 +28,7 @@ export default function Intro() {
                     </h1>
 
                     <p className="hero-text">
-                      Are you looking for a chauffeur in UAE? Wondering about
-                      their standard of services? We are providing a range of
-                      reliable Safe Driver Services.
+                    Are you tired of risking your safety and the safety of others on the road after a night out? Look no further than Smart Safe Drivers, the premier provider of professional and reliable sober drivers in Dubai.
                       {/* Our mission is to provide the best service to every one of our customers and to maintain the quality level. <br/>
 <small>let us know when and where you want the Driver to pick you up from, or book online and we’ll WhatsApp you back to confirm your booking.</small> */}
                     </p>
