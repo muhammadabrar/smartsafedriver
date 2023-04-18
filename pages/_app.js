@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
         ></meta>
         <meta
           name="description"
-          content="Smart Safe Drivers was established with the idea of providing a comfortable travel experience to the general public, business class, tourists and others.
+          content="The top sober driving service in Dubai and the United Arab Emirates is Smart Safe Drivers. Smart Safe Drivers offers flexible and reasonable choices for occasional or regular designated drivers, as well as chauffeur services for business or leisure.
 "
         ></meta>
         <meta
