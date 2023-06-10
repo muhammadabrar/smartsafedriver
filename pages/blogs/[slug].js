@@ -5,7 +5,7 @@ import Skeleton from '../../comp/Skeleton'
 import Footer from '../../comp/footer';
 import Nav from '../../comp/hero/nav';
 import Inner_page from '../../comp/inner_page';
-
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 const client = createClient({
       space: process.env.CONTENTFUL_SPACE_ID,
       accessToken: process.env.CONTENTFUL_ACCESS_KEY,
@@ -53,7 +53,7 @@ export default function RecipeDetails({ blogs }) {
   if (!blogs) return <Skeleton />
 
   const { featureImage, title, tags, detail } = blogs.fields
-
+console.log(detail);
   return (
       
     <>
@@ -64,18 +64,18 @@ export default function RecipeDetails({ blogs }) {
       <div className="banner">
         <Image 
           src={'https:' + featureImage.fields.file.url}
-          width={featureImage.fields.file.details.image.width}
-          height={featureImage.fields.file.details.image.height}
+          layout='fill'
+          objectFit='contain'
         />
         
       </div>
 
       
       <h1 className='blogTitle'>{ title }</h1>
-      <div className="method">
+      <article className="method">
         {/* <h3>Method:</h3> */}
         <div>{documentToReactComponents(detail)}</div>
-      </div>
+      </article>
       </div>
       <Footer/>
 
@@ -94,15 +94,7 @@ export default function RecipeDetails({ blogs }) {
           transform: rotateZ(-1deg);
           box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
         }
-        .info p {
-          margin: 0;
-        }
-        .info span::after {
-          content: ", ";
-        }
-        .info span:last-child::after {
-          content: ".";
-        }
+       
       `}</style>
 
     </>
